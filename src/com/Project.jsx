@@ -16,19 +16,19 @@ const Project = () => {
         <div className='w-full  '>
           <div className='flex flex-col  md:flex-row proj-img '>
             <div className="relative ">
-               <img className=' projimg md:h-[400px] md:w-48  ' src={landingpage} alt="" />
+               <img className=' projimg md:h-[300px] md:w-48  ' src={landingpage} alt="" />
                <div className="proj-desc">
                 <p className='text-center py-5 proj-titlr '>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
                </div>
             </div>
             <div className="relative">
-             <img className='projimg  md:h-[400px] md:w-48' src={ecomm} alt="" />
+             <img className='projimg  md:h-[300px] md:w-48' src={ecomm} alt="" />
              <div className="proj-desc">
                 <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
                </div>
             </div>
             <div className="relative">
-              <img className='projimg  md:h-[400px] md:w-48' src={landingpage2} alt="" />
+              <img className='projimg  md:h-[300px] md:w-48' src={landingpage2} alt="" />
               <div className="proj-desc">
                 <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
                </div>
