@@ -109,3 +109,9 @@ html {
 .foo-cen {
   @apply flex justify-center
 }
+
+.projimg{
+  height: 400px;
+  width: 500px;
+
+}
