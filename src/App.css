@@ -10,6 +10,10 @@
   @apply top-2
 }
 
+.header-hover {
+  @apply hover:text-white hover:border-2 hover:bg-red-500 hover:rounded duration-300
+}
+
 header ul li {
   @apply px-5 hover:border-amber-50
 }
@@ -62,11 +66,11 @@ header ul li {
 }
 
 .about-img {
-  @apply w-80 h-80 rounded-4xl  duration-500 object-contain mb-8 md:mb-0 hover:scale-115  shadow-2xl shadow-red-500
+  @apply w-80 h-80 rounded-4xl duration-500 object-contain mb-8 md:mb-0 hover:scale-115 shadow-2xl shadow-red-500
 }
 
 .about-head {
-  @apply flex flex-col md:flex-row items-center md:space-x-12 
+  @apply flex flex-col md:flex-row items-center md:space-x-12
 }
 
 .about-p {

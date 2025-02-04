@@ -14,19 +14,19 @@ const Headers = () => {
     
            <div className="py-24 md:py-32 hover:scale-110 duration-300 opacity-0 md:opacity-100">
                 <div className="flex items-center gap-x-4">
-                           <img alt="" src={img} className="size-20 rounded-full" />
+                           <img alt="" src={img} className="size-20 rounded-full shadow-2xl shadow-red-500" />
                            <div className=''>
-                             <h3 className="text-3xl  text-white font-bold tracking-tight  ">SK</h3>
+                             <h3 className="text-2xl  text-white font-bold tracking-tight  shadow-2xl shadow-red-500 ">Welcome to my world</h3>
                            </div>
                          </div>
                </div>
             <nav className='hidden md:block '>
                <ul className=' flex px-4 font-serif  '>
-                    <li className='hover:text-red-500 '><a  href='/'>Home</a></li>
-                     <li className='hover:text-red-500  ' ><a href='#about'>About</a></li>
-                      <li className='hover:text-red-500 '><a href='#Project'>Project</a></li>
-                       <li className='hover:text-red-500 '><a href='#contact'>Contact</a></li>
-                   <li className='hover:text-red-500'  
+                    <li className='header-hover '><a  href='/'>Home</a></li>
+                     <li className='header-hover ' ><a href='#about'>About</a></li>
+                      <li className='header-hover '><a href='#Project'>Project</a></li>
+                       <li className='header-hover '><a href='#contact'>Contact</a></li>
+                   <li className='header-hover '  
                       >  <a href='#resume'> Dowload cv </a> </li>
                       
                 </ul>

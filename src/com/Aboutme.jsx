@@ -15,7 +15,7 @@ const Aboutme = () => {
           </p>
           <div className='prog-top'>
             <div className='flex items-center'>
-                <label htmlFor="html&css " className='w-3/12 md:w-2/12'>HTML&CSS</label>
+                <label htmlFor="html&css " className='w-3/12 sm:w-2/12'>HTML & CSS</label>
                 <div className=' progesbar-1'>
                   <div className='progessbar  w-11/12'>
 
@@ -25,7 +25,7 @@ const Aboutme = () => {
             </div>
 
              <div className='flex items-center'>
-                <label htmlFor="htmlandcss" className='w-3/12 md:w-2/12 '>Java script</label>
+                <label htmlFor="Java scripts" className='w-3/12 md:w-2/12 '>Java script</label>
                 <div className='progesbar-1'>
                   <div className='progessbar  w-10/12'>
 
