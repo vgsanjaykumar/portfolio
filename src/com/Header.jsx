@@ -22,20 +22,20 @@ const Headers = () => {
                     <li className='hover:text-red-500 '><a  href='/'>Home</a></li>
                      <li className='hover:text-red-500  ' ><a href='#about'>About</a></li>
                       <li className='hover:text-red-500 '><a href='#Project'>Project</a></li>
-                       <li className='hover:text-red-500 '><a href='#'>Contact</a></li>
-                      <button className='button-all' 
-                      >Dowload cv </button>
+                       <li className='hover:text-red-500 '><a href='#contact'>Contact</a></li>
+                   <li className='hover:text-red-500'  
+                      >  <a href='#resume'> Dowload cv </a> </li>
                       
                 </ul>
             </nav>
 
              { menu && <nav className="block md:block  ">
                <ul className=' flex flex-col  px-4   mobile-nav bg-gray-400 '> 
-                    <li><a href='#'>Home</a></li>
-                     <li><a href='#'>About</a></li>
+                    <li><a href='/'>Home</a></li>
+                     <li><a href='#about'>About</a></li>
                       <li><a href='#'>Project</a></li>
-                       <li><a href='#'>Contact</a></li>
-                        <li><a href='#'>Dowload Cv</a></li>
+                       <li><a href='#contact'>Contact</a></li>
+                        <li><a href='#resume'>Dowload Cv</a></li>
                       
                 </ul>
             </nav>

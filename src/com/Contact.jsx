@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className=' top-conta ' id='contact'>
 
-      <div className='container contact-container   '>
+      <div className='container contact-container   ' id='contact'>
         <h2 className='contact-tit hover:text-red-500 '>contact me</h2>
         <div className=' cont-titl-2'>
           <div className='  '>

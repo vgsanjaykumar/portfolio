@@ -26,13 +26,13 @@ const Footer = () => {
           <div className='footer-line'>
             <p className='text-gray-400'> &copy; {new Date().getFullYear()}</p>
            <div className='footer-centers'>
-            <a href='#' className='text-gray-400 hover:text-white'>
+            <a href='#https://www.instagram.com/sanju_na_mass?utm_source=qr&igsh=YzhuN2QyYWwxYTRi' target='blank' className='text-gray-400 hover:text-white'>
               <FaFacebook/>
             </a>
-             <a href='#' className='text-gray-400 hover:text-white'>
+             <a href='https://www.linkedin.com/in/sanjay-kumar-v-a4a770261/' target='blank' className='text-gray-400 hover:text-white'>
               <FaLinkedin/>
             </a>
-             <a href='#' className='text-gray-400 hover:text-white'>
+             <a href='https://github.com/vgsanjaykumar' target='blank' className='text-gray-400 hover:text-white'>
               <FaGithub/>
             </a>
            </div>
