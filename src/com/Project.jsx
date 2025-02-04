@@ -76,7 +76,7 @@ const Project = () => {
                 <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
                </div>
             </div>
-            <div className="relative">
+            <div className="relative ">
               <img className='projimg  md:h-[300px] md:w-48' src={landingpage2} alt="" />
               <div className="proj-desc">
                 <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
@@ -90,52 +90,6 @@ const Project = () => {
 
         
 
-        {/* <div className='w-full sec-col '>
-          <div className='flex  proj-img flex-col  md:flex-row'>
-            <div className="relative">
-               <img className='h-[250px] w-[500px]' src={landingpage} alt="" />
-               <div className="proj-desc">
-                <p className=' proj-titlr '>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-            </div>
-            <div className="relative">
-             <img className='h-[250px] w-[500px]' src={ecomm} alt="" />
-             <div className="proj-desc">
-                <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-            </div>
-            <div className="relative">
-              <img className='h-[250px] w-[500px]' src={landingpage2} alt="" />
-              <div className="proj-desc">
-                <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-    
-            </div>
-          </div>
-          </div>
-          <div className='w-full sec-col '>
-          <div className='flex  proj-img flex-col  md:flex-row'>
-            <div className="relative">
-               <img className='h-[250px] w-[500px]' src={landingpage} alt="" />
-               <div className="proj-desc">
-                <p className='text-center py-5 proj-titlr '>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-            </div>
-            <div className="relative">
-             <img className='h-[250px] w-[500px]' src={ecomm} alt="" />
-             <div className="proj-desc">
-                <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-            </div>
-            <div className="relative">
-              <img className='h-[250px] w-[500px]' src={landingpage2} alt="" />
-              <div className="proj-desc">
-                <p className='proj-titlr'>landingpage using ereact js hjbfjhadhailsjdnhaisludn</p>
-               </div>
-    
-            </div>
-          </div>
-          </div> */}
       </section>
   )
 }

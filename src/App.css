@@ -25,17 +25,10 @@ header ul li {
   padding: 20px;
 }
 
-.mobile-nav {
-  position: fixed;
-  top: 10%;
-  height: 45%;
-  width: 100%;
-  left: 0;
 
-}
 
 .mobile-nav {
-  @apply px-4
+  @apply px-4 absolute top-[10%] h-[45%] w-[100%] left-0  
 }
 
 .letter-type {
@@ -83,7 +76,7 @@ html {
 }
 
 .proj-desc {
-  @apply absolute left-0 right-0 bottom-0 top-0 bg-red-600 duration-500 opacity-0 hover:opacity-100
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-red-600 duration-500 opacity-0 hover:opacity-100 hover:scale-105
 }
 
 .proj-titlr {
@@ -117,6 +110,7 @@ html {
 .projimg {
   height: 250px;
   width: 500px;
+  
 
 }
 
