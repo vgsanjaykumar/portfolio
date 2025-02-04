@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '..//asset/resume.png'
+import resume from '/asset/resume.png'
 
 
 const Resume = () => {

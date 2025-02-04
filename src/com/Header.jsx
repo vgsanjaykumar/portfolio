@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import '/src/App.css'
-import img from '..//asset/me.png'
+import img from '/asset/me.png'
 
 const Headers = () => {
 

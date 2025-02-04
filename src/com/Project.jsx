@@ -1,7 +1,7 @@
 import React from 'react'
-import landingpage from '../asset/landing page.jpeg'
-import landingpage2 from '../asset/landpage 2.png'
-import ecomm from '../asset/e-com.jpg'
+import landingpage from '/asset/landing page.jpeg'
+import landingpage2 from '/asset/landpage 2.png'
+import ecomm from '/asset/e-com.jpg'
 
 
 const Project = () => {
