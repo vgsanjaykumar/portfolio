@@ -7,7 +7,7 @@ const Headers = () => {
 
    const [menu,setMenu] = useState(false);   
     return (
-    <header className='flex justify-between bg-primary bg-black text-2xl ' > 
+    <header className='flex justify-between bg-primary bg-black text-2xl font-serif' > 
     
            <div className="py-24 md:py-32 hidden md:block">
                 <div className="flex items-center gap-x-4">
@@ -18,7 +18,7 @@ const Headers = () => {
                          </div>
                </div>
             <nav className='hidden md:block '>
-               <ul className=' flex px-4  '>
+               <ul className=' flex px-4 font-serif  '>
                     <li className='hover:text-red-500 '><a  href='/'>Home</a></li>
                      <li className='hover:text-red-500  ' ><a href='#about'>About</a></li>
                       <li className='hover:text-red-500 '><a href='#Project'>Project</a></li>
