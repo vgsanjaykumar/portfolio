@@ -28,7 +28,7 @@ header ul li {
 
 
 .mobile-nav {
-  @apply px-4 absolute top-[10%] h-[45%] w-[100%] left-0  
+  @apply px-4 absolute top-[10%] h-[45%] w-[100%] left-0
 }
 
 .letter-type {
@@ -36,7 +36,7 @@ header ul li {
 }
 
 .mobile-nav li {
-  @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-600 left-0 hover:scale-105 duration-200 
+  @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-600 left-0 hover:scale-105 duration-200
 }
 
 .socialmedia {
@@ -51,8 +51,38 @@ header ul li {
   @apply pb-8
 }
 
-.aboutimg {
-  @apply md:h-full md:w-full
+
+
+.about-text {
+  @apply text-4xl font-bold text-center mb-12
+}
+
+.container {
+  @apply mx-auto px-8 md:px-16 lg:px-24
+}
+
+.about-img {
+  @apply w-80 h-80 rounded-4xl  duration-500 object-contain mb-8 md:mb-0 hover:scale-115  shadow-2xl shadow-red-500
+}
+
+.about-head {
+  @apply flex flex-col md:flex-row items-center md:space-x-12 
+}
+
+.about-p {
+  @apply text-lg mb-8
+}
+
+.progessbar {
+  @apply bg-gradient-to-r from-white to-red-600 h-2.5 rounded-full transform transition-transform duration-500 hover:scale-110
+}
+
+.progesbar-1 {
+  @apply grow bg-gray-600 rounded-full h-2.5
+}
+
+.prog-top {
+  @apply space-y-4
 }
 
 html {
@@ -110,7 +140,7 @@ html {
 .projimg {
   height: 250px;
   width: 500px;
-  
+
 
 }
 
@@ -151,6 +181,10 @@ html {
 
 .top-conta {
   @apply bg-black text-white py-10
+}
+
+.top-container {
+  @apply bg-black text-white py-20
 }
 
 .margin-r {
