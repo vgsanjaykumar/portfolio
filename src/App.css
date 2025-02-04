@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.herosanjay {
+  @apply top-2
+}
+
+header ul li {
+  @apply px-5 hover:border-amber-50
+}
+
+
+.banner {
+  @apply py-50
+}
+
+.bg-primary {
+
+  color: aliceblue;
+  padding: 20px;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 10%;
+
+
+  height: 45%;
+  width: 100%;
+  left: 0;
+}
+
+.letter-type {
+  @apply py-5 font-bold
+}
+
+.mobile-nav li {
+  @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-500 left-0
+}
+
+.socialmedia {
+  @apply py-5 gap-8
+}
+
+.about {
+  @apply px-5 py-20 items-center
+}
+
+.abouth1 {
+  @apply mb-8
+}
+
+.aboutimg {
+  @apply md:h-full md:w-full
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.proj-sec {
+  @apply py-50 items-center bg-black text-white
+}
+
+.proj-sec1 {
+  @apply py-10 px-10 bg-black text-white flex justify-center
+}
+
+.proj-head {
+  @apply items-center
+}
+
+.proj-img {
+  @apply px-25 gap-6
+}
+
+.proj-desc {
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-red-600 duration-500 opacity-0 hover:opacity-100
+}
+
+.proj-titlr {
+  @apply py-15 px-2 items-center text-center
+}
+
+.sec-col {
+  @apply py-8
+}
+
+.btn-res {
+  @apply bg-red-600 px-2 py-2 ml-2 font-bold hover:border-2 border-white rounded
+}
+
+.contact {
+  @apply py-20 px-25
+}
+
+.contactdecs {
+  @apply mb-8 
+}
+.footer-decs{
+  @apply py-8  flex justify-center text-center
+} 
+
+.foo-cen{
+  @apply flex justify-center
+}
