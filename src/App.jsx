@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Headers from './com/header'
+import Headers from './com/Header'
 import Hero from './com/hero'
 import About from './com/About'
 import Project from './com/Project'
