@@ -33,25 +33,25 @@ const Contact = () => {
             <form className='space-y-4'>
               <div>
                 <label htmlFor="name" className='formlabile'>your name</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white-400' 
+                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
                 placeholder='enter your name' />
               </div>
 
                <div>
                 <label htmlFor="email" className='formlabile'>email</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white-400' 
+                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
                 placeholder='enter your name' />
               </div>
 
                <div>
                 <label htmlFor="Number" className='formlabile'>number</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white-400' 
+                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
                 placeholder='enter your name' />
               </div>
 
                <div>
                 <label htmlFor="email" className='formlabile'>Message</label>
-                <textarea type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white-400'
+                <textarea type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white'
                 rows="5" 
                 placeholder='enter your name' />
               </div>

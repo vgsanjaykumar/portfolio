@@ -1,27 +1,56 @@
 import React from 'react'
-import { AiOutlineGithub ,AiOutlineLinkedin,AiOutlineInstagram,AiOutlineFacebook } from "react-icons/ai";
+import { FaFacebook, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <section className=' bg-gray-400 '>
-       <div className='foo-cen'>
-        <div className='footer-decs font-bold text-white text-center  h-[50px] ' > © Sanjaykumar 2025 </div>
-       </div>
-          <div className=" text-white  flex foo-cen  ">
-                  <a href='#' className='hover:text-red-500' > <AiOutlineLinkedin size={30} />  </a>
-                  <a href='#' className='hover:text-red-500'> <AiOutlineInstagram size={30} />  </a>
-                  <a href='#' className='hover:text-red-500'> <AiOutlineFacebook size={30} />  </a>
-                    <a href='#' className='hover:text-red-500 ' > <AiOutlineGithub size={30}  />  </a>
-                  
-                  
-              </div>
-    </section>   
-       
+    <footer className='top-conta'>
+      <div className='container footer-container '>
+        <div className='footer-des'>
+          <div className=' footer-tit'>
+          <h3>sanjaykumar</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, iure nulla!
+             Assumenda reprehenderit, ea saepe adipisci perspiciatis tempora velit iste iure quis explicabo, magni quisquam maxime magnam 
+             placeat aliquid dolores.</p>
 
+             </div>
+             <div className='flex-1 w-full'>
+              <form className='flex items-center justify-center py-4'>
+                <input type="email"  placeholder='enter email'
+                className='footer-input'/>
+                <button type='submit' className='button-all footer-btn'> Subscripe</button>
+              </form>
+             </div>
 
-       
-   
- 
+        </div>
+
+          <div className='footer-line'>
+            <p className='text-gray-400'> &copy; {new Date().getFullYear()}</p>
+           <div className='footer-centers'>
+            <a href='#' className='text-gray-400 hover:text-white'>
+              <FaFacebook/>
+            </a>
+             <a href='#' className='text-gray-400 hover:text-white'>
+              <FaLinkedin/>
+            </a>
+             <a href='#' className='text-gray-400 hover:text-white'>
+              <FaGithub/>
+            </a>
+           </div>
+
+           <div className='footer-info'>
+            <a href="#" className='text-gray-400 hover:text-white'>
+              sanjaykumar.v
+            </a>
+
+             <a href="#"  className='text-gray-400 hover:text-white'>
+              karaikudi
+            </a>
+            
+          </div>
+           </div>
+
+      </div>
+    </footer>
   )
 }
 

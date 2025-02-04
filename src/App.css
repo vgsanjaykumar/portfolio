@@ -52,7 +52,7 @@ header ul li {
 }
 
 .abouth1 {
-  @apply pb-8 
+  @apply pb-8
 }
 
 .aboutimg {
@@ -64,7 +64,7 @@ html {
 }
 
 .proj-sec {
-  @apply py-50  items-center bg-black text-white
+  @apply py-50 items-center bg-black text-white
 }
 
 .proj-sec1 {
@@ -92,7 +92,7 @@ html {
 }
 
 .btn-res {
-  @apply bg-red-600 px-4 py-2  font-bold hover:border-2 border-white rounded w-25 mx-20 my-5
+  @apply bg-red-600 px-4 py-2 font-bold hover:border-2 border-white rounded w-25 mx-20 my-5
 }
 
 .contact {
@@ -111,44 +111,83 @@ html {
   @apply flex justify-center
 }
 
-.projimg{
+.projimg {
   height: 250px;
   width: 500px;
 
 }
-.resimg{
+
+.resimg {
   @apply md:pl-50
 }
 
-.contact-des{
+.contact-des {
   @apply mb-4 mt-8
 }
+
 .contact-des1 {
-  @apply mb-4 
+  @apply mb-4
 }
-.contact-container{
+
+.contact-container {
   @apply mx-auto px-8 md:px-16 lg:px-24
 }
-.contact-tit{
+
+.contact-tit {
   @apply text-4xl font-bold text-center mb-12
 }
 
-.cont-titl-2{
-  @apply flex flex-col  md:flex-row items-center md:space-x-12 w-full
+.cont-titl-2 {
+  @apply flex flex-col md:flex-row items-center md:space-x-12 w-full
 }
 
-.top-conta{
-  @apply bg-black text-white py-20 
+.footer-des {
+
+  @apply flex flex-col md:flex-row items-center md:space-x-12 w-full mb-4
 }
 
-.margin-r{
+.footer-tit {
+
+  @apply flex-1 mb-4 md:mb-0
+}
+
+
+.top-conta {
+  @apply bg-black text-white  py-10
+}
+
+.margin-r {
   @apply mr-2
 }
 
-.formlabile{
+.formlabile {
   @apply block mb-2
 }
 
-.button-all{
-  @apply bg-gradient-to-l from-gray-500 to-red-500 font-bold text-white  md:inline transform transition-transform duration-300 hover:scale-105 py-2 px-4 rounded-full
+.button-all {
+  @apply bg-gradient-to-l from-gray-500 to-red-500 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-105 py-2 px-4 rounded-full
 }
+
+.footer-line {
+  @apply border-t border-red-500 pt-4 flex flex-col md:flex-row justify-between items-center
+}
+
+.footer-centers {
+  @apply flex space-x-4 my-4 md:my-0
+}
+
+.footer-info{
+   @apply flex space-x-4
+}
+.footer-container {
+  @apply mx-auto px-8 md:px-16 lg:px-24 
+}
+
+.footer-less{
+  @apply border-t border-red-500 pt-4 flex flex-col md:flex-row justify-between items-center
+}
+
+.footer-input{
+    @apply w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white
+}
+
