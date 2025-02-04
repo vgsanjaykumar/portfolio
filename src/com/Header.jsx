@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
-import { Bars3Icon } from '@heroicons/react/24/solid'
+import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/solid'
 import '/src/App.css'
 import img from '/asset/me.png'
+
 
 const Headers = () => {
 
    const [menu,setMenu] = useState(false);   
     return (
-    <header className='flex justify-between  bg-primary bg-black text-2xl font-serif' > 
+    <header className='flex justify-between  bg-primary bg-black text-2xl font-serif ease-in duration-200' > 
+    
+    
     
            <div className="py-24 md:py-32  opacity-0 md:opacity-100">
                 <div className="flex items-center gap-x-4">
@@ -30,7 +33,7 @@ const Headers = () => {
             </nav>
 
              { menu && <nav className="block md:block  ">
-               <ul className=' flex flex-col  px-4   mobile-nav bg-gray-400 '> 
+               <ul className=' flex flex-col    mobile-nav   bg-gray-500 '> 
                     <li><a href='/'>Home</a></li>
                      <li><a href='#about'>About</a></li>
                       <li><a href='#'>Project</a></li>
@@ -41,11 +44,13 @@ const Headers = () => {
             </nav>
 }
 
-            <button className='block md:hidden  transition delay-150 duration-300 ease-in-out' onClick={ () => setMenu(!menu)}> <Bars3Icon className='text-white h-8' />  </button>
+            <button className='block md:hidden  transition delay-500 duration-800 ease-in-out' onClick={ () => setMenu(!menu)}>
+              { menu ? <XMarkIcon className='text-white h-8' />:<Bars3Icon className='text-white h-8'/>  }</button>
 
              
  
     </header>
+
   )
 }
 

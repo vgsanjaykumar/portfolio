@@ -28,11 +28,14 @@ header ul li {
 .mobile-nav {
   position: fixed;
   top: 10%;
-
-
   height: 45%;
   width: 100%;
   left: 0;
+
+}
+
+.mobile-nav {
+  @apply px-4
 }
 
 .letter-type {
@@ -40,7 +43,7 @@ header ul li {
 }
 
 .mobile-nav li {
-  @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-500 left-0
+  @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-600 left-0 hover:scale-105 duration-200 
 }
 
 .socialmedia {
@@ -153,7 +156,7 @@ html {
 
 
 .top-conta {
-  @apply bg-black text-white  py-10
+  @apply bg-black text-white py-10
 }
 
 .margin-r {
@@ -176,18 +179,18 @@ html {
   @apply flex space-x-4 my-4 md:my-0
 }
 
-.footer-info{
-   @apply flex space-x-4
-}
-.footer-container {
-  @apply mx-auto px-8 md:px-16 lg:px-24 
+.footer-info {
+  @apply flex space-x-4
 }
 
-.footer-less{
+.footer-container {
+  @apply mx-auto px-8 md:px-16 lg:px-24
+}
+
+.footer-less {
   @apply border-t border-red-500 pt-4 flex flex-col md:flex-row justify-between items-center
 }
 
-.footer-input{
-    @apply w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white
+.footer-input {
+  @apply w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white
 }
-

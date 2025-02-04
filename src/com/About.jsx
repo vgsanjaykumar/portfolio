@@ -5,7 +5,7 @@ const About = () => {
   return (
   <section className='bg-black  text-white md:flex-row  flex flex-col about ' id='about' >
         <div className='md:w-1/2  ' >
-        <img  className='abouth1 aboutimg 'src={about} alt="#" />
+        <img  className='abouth1 aboutimg hover:scale-110 duration-300 'src={about} alt="#" />
         </div>
         <div className='flex justify-center md:w-full  '>
             <div className=' flex flex-col  justify-center ' >

@@ -1,5 +1,7 @@
 import React from 'react'
 import resume from '/asset/resume.png'
+import Resumedowload from '/asset/Resume.pdf'
+
 
 
 const Resume = () => {
@@ -13,7 +15,7 @@ const Resume = () => {
                   
                  <h1 className='font-bold text-3xl  hover:text-red-500  '>Dowload cv</h1>
               <p className=' text-2xl ' >you can view my resume   </p>
-              <button href='#' className='button-all '> Dowload</button>
+              <button  className='button-all '><a href="{Resumedowload}" download="Resumedowload">Dowload </a> </button>
            
               </div>
               </div>
