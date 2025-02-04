@@ -120,3 +120,35 @@ html {
   @apply md:pl-50
 }
 
+.contact-des{
+  @apply mb-4 mt-8
+}
+.contact-des1 {
+  @apply mb-4 
+}
+.contact-container{
+  @apply mx-auto px-8 md:px-16 lg:px-24
+}
+.contact-tit{
+  @apply text-4xl font-bold text-center mb-12
+}
+
+.cont-titl-2{
+  @apply flex flex-col  md:flex-row items-center md:space-x-12 w-full
+}
+
+.top-conta{
+  @apply bg-black text-white py-20 
+}
+
+.margin-r{
+  @apply mr-2
+}
+
+.formlabile{
+  @apply block mb-2
+}
+
+.button-all{
+  @apply bg-gradient-to-l from-gray-500 to-red-500 font-bold text-white  md:inline transform transition-transform duration-300 hover:scale-105 py-2 px-4 rounded-full
+}

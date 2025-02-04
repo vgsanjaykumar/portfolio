@@ -13,7 +13,7 @@ const Resume = () => {
                   
                  <h1 className='font-bold text-3xl   hover:text-red-500  '>Dowload cv</h1>
               <p className=' text-2xl ' >you can view my resume   </p>
-              <a href='#' className='btn-res '> Dowload</a>
+              <button href='#' className='button-all '> Dowload</button>
            
               </div>
               </div>

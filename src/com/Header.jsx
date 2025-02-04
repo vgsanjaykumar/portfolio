@@ -7,9 +7,9 @@ const Headers = () => {
 
    const [menu,setMenu] = useState(false);   
     return (
-    <header className='flex justify-between bg-primary bg-black text-2xl font-serif' > 
+    <header className='flex justify-between  bg-primary bg-black text-2xl font-serif' > 
     
-           <div className="py-24 md:py-32 hidden md:block">
+           <div className="py-24 md:py-32  opacity-0 md:opacity-100">
                 <div className="flex items-center gap-x-4">
                            <img alt="" src={img} className="size-20 rounded-full" />
                            <div className=''>
@@ -23,7 +23,8 @@ const Headers = () => {
                      <li className='hover:text-red-500  ' ><a href='#about'>About</a></li>
                       <li className='hover:text-red-500 '><a href='#Project'>Project</a></li>
                        <li className='hover:text-red-500 '><a href='#'>Contact</a></li>
-                      <button className='hover:rounded-md hover:outline-2 outline-offset-2 outline-red-500'>Dowload cv </button>
+                      <button className='button-all' 
+                      >Dowload cv </button>
                       
                 </ul>
             </nav>
