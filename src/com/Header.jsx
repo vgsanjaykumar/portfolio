@@ -9,7 +9,7 @@ const Headers = () => {
     return (
     <header className='flex justify-between bg-primary bg-black text-2xl ' > 
     
-           <div className="py-24 md:py-32">
+           <div className="py-24 md:py-32 hidden md:block">
                 <div className="flex items-center gap-x-4">
                            <img alt="" src={img} className="size-20 rounded-full" />
                            <div className=''>

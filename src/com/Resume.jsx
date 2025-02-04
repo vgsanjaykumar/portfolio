@@ -4,15 +4,16 @@ import resume from '/asset/resume.png'
 
 const Resume = () => {
   return (
-  <section className='bg-black  text-white md:flex-row  flex flex-col about  ' id='resume' >
+  <section className='bg-black  text-white md:flex-row items-center flex flex-col about  ' id='resume' >
           <div className='md:w-1/2  ' >
-          <img  className='abouth1 aboutimg 'src={resume} alt="#" />
+          <img  className='resimg h-1/2'src={resume} alt="#" />
           </div>
-          <div className='flex justify-center md:w-full  '>
-              <div className=' flex flex-col  justify-center ' >
+          <div className='flex justify-center h-1/2 w-1/3  '>
+              <div className=' flex flex-col  items-center restext' >
                   
-                 <h1 className='font-bold text-5xl abouth1  hover:text-red-500 '>Dowload cv</h1>
-              <p className='abouth1 text-2xl ' >you can view my resume   <a href='#' className='btn-res'> Dowload</a></p>
+                 <h1 className='font-bold text-3xl   hover:text-red-500  '>Dowload cv</h1>
+              <p className=' text-2xl ' >you can view my resume   </p>
+              <a href='#' className='btn-res '> Dowload</a>
            
               </div>
               </div>

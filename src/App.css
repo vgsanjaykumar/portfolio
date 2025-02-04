@@ -51,7 +51,7 @@ header ul li {
 }
 
 .abouth1 {
-  @apply mb-8
+  @apply pb-8 
 }
 
 .aboutimg {
@@ -63,7 +63,7 @@ html {
 }
 
 .proj-sec {
-  @apply py-50 items-center bg-black text-white
+  @apply py-50  items-center bg-black text-white
 }
 
 .proj-sec1 {
@@ -91,11 +91,11 @@ html {
 }
 
 .btn-res {
-  @apply bg-red-600 px-2 py-2 ml-2 font-bold hover:border-2 border-white rounded
+  @apply bg-red-600 px-4 py-2  font-bold hover:border-2 border-white rounded w-25 mx-20 my-5
 }
 
 .contact {
-  @apply py-20 px-25
+  @apply py-20 px-5
 }
 
 .contactdecs {
@@ -115,3 +115,7 @@ html {
   width: 500px;
 
 }
+.resimg{
+  @apply md:pl-50
+}
+
