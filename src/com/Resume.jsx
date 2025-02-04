@@ -10,7 +10,7 @@ const Resume = () => {
           <div className='md:w-1/2 w-full ' >
           <img  className='resimg h-1/2 hover:scale-110 duration-300'src={resume} alt="#" />
           </div>
-          <div className='flex justify-center h-1/2 md:w-full lg:w-1/4  '>
+          <div className='flex justify-center  md:w-full lg:w-1/3 w-full  '>
               <div className=' flex flex-col  items-center ' >
                   
                  <h1 className='font-bold text-3xl  hover:text-red-500  '>Dowload cv</h1>

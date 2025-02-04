@@ -9,7 +9,7 @@ const Project = () => {
       <section className='flex  proj-sec flex-col justify-center  md:px-6  ' >
         <div className='   ' id='Project'>
          <div className='  proj-sec1 w-full '>
-          <h1 className='text-3xl font-bold proj-head'>Projects</h1>
+          <h1 className='text-3xl font-bold proj-head hover:text-red-500'>Projects</h1>
          </div>
             </div>
        

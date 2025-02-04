@@ -70,11 +70,11 @@ header ul li {
 }
 
 .about-head {
-  @apply flex flex-col md:flex-row items-center md:space-x-12
+  @apply flex flex-col md:flex-row items-center md:space-x-12 
 }
 
 .about-p {
-  @apply text-lg mb-8
+  @apply text-lg mb-8 my-4
 }
 
 .progessbar {
