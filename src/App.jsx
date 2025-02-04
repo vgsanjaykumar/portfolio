@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Headers from './com/Header'
-import Hero from './com/hero'
+import Hero from './com/Hero'
 import About from './com/About'
 import Project from './com/Project'
 import Resume from './com/Resume'
