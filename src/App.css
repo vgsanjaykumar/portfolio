@@ -200,7 +200,7 @@ html {
 }
 
 .button-all {
-  @apply bg-gradient-to-l from-gray-500 to-red-500 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-105 py-2 px-4 rounded-full
+  @apply bg-gradient-to-l from-gray-500 to-red-500 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
 }
 
 .footer-line {

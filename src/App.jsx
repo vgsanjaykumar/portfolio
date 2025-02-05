@@ -9,6 +9,7 @@ import Contact from './com/Contact'
 import Footer from './com/Footer'
 
 
+
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
     <Resume/>
     <Contact/>
     <Footer/>
+  
     </div>
 
     

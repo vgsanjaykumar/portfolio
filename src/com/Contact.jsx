@@ -2,6 +2,31 @@ import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
+
+  const [result, setResult] = React.useState("");
+  
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+  
+      formData.append("access_key", "e52bab3c-6d7d-46a9-b6bc-08ce3470ec20");
+  
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+  
+      const data = await response.json();
+  
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        event.target.reset();
+      } else {
+        console.log("Error", data);
+        setResult(data.message);
+      }
+  };
   return (
     <div className=' top-conta ' id='contact'>
 
@@ -30,7 +55,7 @@ const Contact = () => {
            </div>
           </div>
           <div className=' w-full'>
-            <form className='space-y-4'>
+            <form className='space-y-4' onSubmit={onSubmit}>
               <div>
                 <label htmlFor="name" className='formlabile'>your name</label>
                 <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
@@ -55,8 +80,10 @@ const Contact = () => {
                 rows="5" 
                 placeholder='enter your name' />
               </div>
-              <button className='button-all'>Submit</button>
+              <button className='button-all' type='submit'>Submit</button>
             </form>
+
+            <span>{result}</span>
 
           </div>
          

@@ -1,7 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 import { FaFacebook, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa'
 
+
+
 const Footer = () => {
+
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "e52bab3c-6d7d-46a9-b6bc-08ce3470ec20");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+ 
   return (
     <footer className='top-conta'>
       <div className='container footer-container '>
@@ -14,11 +44,12 @@ const Footer = () => {
 
              </div>
              <div className='flex-1 w-full'>
-              <form className='flex items-center justify-center py-4'>
+              <form className='flex items-center justify-center py-4'  onSubmit={onSubmit}>
                 <input type="email"  placeholder='enter email'
                 className='footer-input'/>
                 <button type='submit' className='button-all footer-btn'> Subscripe</button>
               </form>
+               <span>{result}</span>
              </div>
 
         </div>
@@ -54,4 +85,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer 
