@@ -9,13 +9,13 @@ const Exp =[
     },
     {
         date: "February 2024 - August 2024 (6Month)",
-        title: "Internship-Graphic-designer",
+        title: "Internship-Graphic designer",
          description: "Assisted senior designers in creating visual content and branding materials Created logos, marketing materials, and digitalassets using Adobe Creative Suite. Participated in client meetings and contributed tobrainstorming sessions for design solutions.",
     },
 
     {
         date:"11-07-2024 TO 10-08-2024(30DAYS)",
-        title: "Internship-Email-marketing ",
+        title: "Internship-Email--marketing     ",
         description: "Email marketing involves sending targeted emails to promote products, engage customers, and drive conversions. It includes segmentation, automation, and analysis to optimize campaigns and improve customer relationships and sales.",
     },
 
@@ -39,7 +39,7 @@ const Experience = () => {
                         </div>
                         <p className='exp-p'>{Exp.description}</p>
                          
-                        <a href="#" className='exp-a'>Readmore</a>
+                        <a href="#" className='exp-a button-all-submit'>Readmore</a>
                         
                     </div>
                 ))}

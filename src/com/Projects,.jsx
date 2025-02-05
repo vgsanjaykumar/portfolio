@@ -44,8 +44,9 @@ const Projects = () => {
   return (
    
      <section>
-      <div className="top-container relative">
-        <div className="container">
+       
+      <div className="top-container ">
+        <div className="container ">
             <h3 className='about-text'>Projects</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 '>
@@ -54,7 +55,7 @@ const Projects = () => {
                         <img src={Exp.date} className='projects-img' alt="" />
                         <div className="proj-desc">
                              <p className='proj-p'>{Exp.description}</p>
-                             <a href="#" className='proj-a'>Readmore</a>
+                             <a href="#" className=' button-all-submit'>Readmore</a>
                              
                         </div>
                          
@@ -67,9 +68,17 @@ const Projects = () => {
                         
                     </div>
                 ))}
+                  
             </div>
+
+           
+           
+          <h1 className=' about-button'> <button className=' button-all-submits'>More projects</button> </h1>
         </div>
+         
       </div>
+       
+
      </section>
    
   )

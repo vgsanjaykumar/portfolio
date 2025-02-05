@@ -228,7 +228,7 @@ html {
 }
 
 .proj-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110
 }
 
 .exp-id {
@@ -251,10 +251,24 @@ html {
   @apply mt-2 w-full rounded h-60 md:h-80 lg:h-60
 }
 
-.proj-p{
-  @apply  mt-30  mx-auto text-left pl-2 md:mt-10 lg:mt-15
+.proj-p {
+  @apply mt-18 mr-2 mx-auto text-left pl-2 md:mt-25 lg:mt-15
 }
 
-.proj-a {
-  @apply inline-block text-red-500 hover:text-gray-200  ml-2  
+
+
+.button-all-submit {
+  @apply  mr-2 bg-gradient-to-l from-green-500 to-blue-500 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full  
+  
 }
+
+.button-all-submits {
+  @apply mr-2 bg-gradient-to-l from-gray-800 to-red-500 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
+}
+
+.about-button {
+  @apply text-2xl font-bold text-center mb-12
+}
+
+
+
