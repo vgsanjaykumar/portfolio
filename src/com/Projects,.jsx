@@ -1,38 +1,37 @@
-
 import React from 'react'
 
 const Exp =[
     {
-        date:"public/asset/e-com.jpg",
+        date:"./asset/e-com.jpg",
         title: "Landing page",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
        
     },
     {
-        date: "public/asset/landing page.jpeg",
+        date: "./asset/landing page.jpeg",
         title: "E-commernce",
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
 
     {
-        date:"public/asset/landpage 2.png",
+        date:"./asset/landpage 2.png",
         title: "Landing page ",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
         {
-        date:"public/asset/e-com.jpg",
+        date:"./asset/e-com.jpg",
         title: "Landing page",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
        
     },
     {
-        date: "public/asset/landing page.jpeg",
+        date: "./asset/landing page.jpeg",
         title: "E-commernce",
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
 
     {
-        date:"public/asset/landpage 2.png",
+        date:"./asset/landpage 2.png",
         title: "Landing page ",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
