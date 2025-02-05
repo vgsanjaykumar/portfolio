@@ -197,9 +197,7 @@ html {
   @apply block mb-2
 }
 
-.button-all {
-  @apply bg-gradient-to-l from-gray-500 to-orange-400 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
-}
+
 
 .footer-line {
   @apply border-t border-[#3B6790] pt-4 flex flex-col md:flex-row justify-between items-center
@@ -258,14 +256,16 @@ html {
 }
 
 
-
+.button-all {
+  @apply bg-gradient-to-l from-[#cfd220] to-[#2ca195] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
+}
 .button-all-submit {
-  @apply  mr-2 bg-gradient-to-l from-orange-400 to-gray-400 font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full  
+  @apply  mr-2 bg-gradient-to-l from-[#cfd220] to-[#2ca195] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full  
   
 }
 
 .button-all-submits {
-  @apply mr-2 bg-gradient-to-l from-gray-400 to-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
+  @apply mr-2 bg-gradient-to-l from-[#cfd220] to-[#2ca195]  font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
 }
 
 .about-button {
