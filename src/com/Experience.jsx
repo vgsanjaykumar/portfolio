@@ -1,4 +1,5 @@
-
+import Resume from './Resume';
+import resume from '/asset/Resume sanjay.pdf'
 import React from 'react'
 const Exp =[
     {
@@ -39,7 +40,7 @@ const Experience = () => {
                         </div>
                         <p className='exp-p'>{Exp.description}</p>
                          
-                        <a href="#" className='exp-a button-all-submit'>Readmore</a>
+                        <a href={resume} download={Resume} target='blank' className='exp-a button-all-submit'>Readmore</a>
                         
                     </div>
                 ))}

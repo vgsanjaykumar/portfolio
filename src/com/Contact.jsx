@@ -58,27 +58,27 @@ const Contact = () => {
             <form className='space-y-4' onSubmit={onSubmit}>
               <div>
                 <label htmlFor="name" className='formlabile'>your name</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
-                placeholder='enter your name' />
+                <input type="text" className='footer-input' 
+                placeholder='Enter your name' />
               </div>
 
                <div>
                 <label htmlFor="email" className='formlabile'>email</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
-                placeholder='enter your name' />
+                <input type="email" className='footer-input' 
+                placeholder='Enter your Email' />
               </div>
 
                <div>
                 <label htmlFor="Number" className='formlabile'>number</label>
-                <input type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white' 
-                placeholder='enter your name' />
+                <input type="text" className='footer-input' 
+                placeholder='Enter your Number' />
               </div>
 
                <div>
                 <label htmlFor="email" className='formlabile'>Message</label>
-                <textarea type="text" className='w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white'
+                <textarea type="text" className='footer-input'
                 rows="5" 
-                placeholder='enter your name' />
+                placeholder='Any messages' />
               </div>
               <button className='button-all' type='submit'>Submit</button>
             </form>

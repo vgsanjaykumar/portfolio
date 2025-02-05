@@ -45,7 +45,7 @@ const Footer = () => {
              </div>
              <div className='flex-1 w-full'>
               <form className='flex items-center justify-center py-4'  onSubmit={onSubmit}>
-                <input type="email"  placeholder='enter email'
+                <input type="email"  placeholder='enter Email'
                 className='footer-input'/>
                 <button type='submit' className='button-all footer-btn'> Subscripe</button>
               </form>
