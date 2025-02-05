@@ -47,7 +47,7 @@ const Projects = () => {
        
       <div className="top-container ">
         <div className="container ">
-            <h3 className='about-text'>Projects</h3>
+            <h3 className='about-text  hover:text-[#EFB036]'>Projects</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 '>
                  {Exp.map(Exp =>(

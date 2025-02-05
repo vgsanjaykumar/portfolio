@@ -5,7 +5,7 @@ const Aboutme = () => {
   return (
     <div className='top-container' id='about'>
       <div className=' container ' >
-        <h2 className='about-text hover:text-red-500'>About me</h2>
+        <h2 className='about-text hover:text-[#EFB036]'>About me</h2>
         <div className='about-head w-full'>
           <img src={About} alt="" className='about-img ' />
           <div className=' flex- '>

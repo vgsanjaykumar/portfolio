@@ -31,25 +31,25 @@ const Contact = () => {
     <div className=' top-conta ' id='contact'>
 
       <div className='container contact-container     ' id='contact'>
-        <h2 className='contact-tit hover:text-red-500 '>contact me</h2>
+        <h2 className='contact-tit  hover:text-[#EFB036] '>contact me</h2>
         <div className=' cont-titl-2'>
           <div className='  '>
             <h3>letz talt</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus illo, commodi laborum rem ex et quam doloribus, quae autem quas cumque blanditiis esse magnam odio? Quia eos culpa obcaecati vero.</p>
           <div className=" contact-des">
-            <FaEnvelope className='inline-block text-red-500 margin-r'></FaEnvelope>
-            <a href="mailto:vgssanjayboss@gmail.com" className='hover:border-2 hover:border-red-400'>
+            <FaEnvelope className='inline-block  text-[#EFB036] margin-r'></FaEnvelope>
+            <a href="mailto:vgssanjayboss@gmail.com" className='hover:border-b-2 hover:border-[#EFB036]'>
               vgssanjayboss@gmail.com
             </a>
           </div>
           <div className=' contact-des1'>
-            <FaPhone className='inline-block text-red-500 margin-r'></FaPhone>
-            <span> 960041771</span>
+            <FaPhone className='inline-block  text-[#EFB036] margin-r'></FaPhone>
+            <span> 9600417117</span>
              
           
           </div>
           <div className='contact-des1'>
-            <FaMapMarkedAlt className='inline-block text-red-500 margin-r'></FaMapMarkedAlt>
+            <FaMapMarkedAlt className='inline-block  text-[#EFB036] margin-r'></FaMapMarkedAlt>
             <span> karaikudi,tamilnadu</span>
              
            </div>

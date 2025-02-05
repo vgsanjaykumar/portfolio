@@ -13,7 +13,7 @@
 }
 
 .header-hover {
-  @apply hover:text-white hover:border-2 hover:bg-[#577B8D] hover:rounded duration-300
+  @apply   hover:text-[#EFB036] hover:rounded duration-300
 }
 
 header ul li {
@@ -224,7 +224,7 @@ html {
 }
 
 .Exp-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg shadow-sm transform transition-transform duration-500 hover:scale-110 bg-gray-600
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg  shadow-[#EFB036] transform transition-transform duration-500 hover:scale-110 bg-gray-600 
 }
 
 .proj-div {

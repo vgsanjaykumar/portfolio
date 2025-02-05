@@ -14,7 +14,7 @@ const Resume = () => {
           <div className='flex justify-center  md:w-full lg:w-1/3 w-full  '>
               <div className=' flex flex-col  items-center ' >
                   
-                 <h1 className='font-bold text-3xl  hover:text-red-500  '>Dowload cv</h1>
+                 <h1 className='font-bold text-3xl  hover:text-[#EFB036]  '>Dowload cv</h1>
               <p className=' text-2xl ' >you can view my resume   </p>
               <button  className='button-all '><a href={resume} download={Resume} target='blank' >Dowload </a> </button>
            

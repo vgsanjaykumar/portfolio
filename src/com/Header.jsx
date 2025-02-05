@@ -17,7 +17,7 @@ const Headers = () => {
                 <div className="flex items-center gap-x-4">
                            <img alt="" src={img} className="size-20 rounded-full shadow-2xl shadow-gray-400" />
                            <div className=''>
-                             <h3 className="  text-white font-bold   ">Welcome to my world</h3>
+                             
                            </div>
                          </div>
                </div>

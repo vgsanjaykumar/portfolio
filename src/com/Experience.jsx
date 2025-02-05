@@ -29,8 +29,8 @@ const Experience = () => {
    <section>
     <div className='top-container'>
         <div className='container'>
-            <h2 className='about-text'>EXPERIENCE</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+            <h2 className='about-text  hover:text-[#EFB036]'>EXPERIENCE</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 '>
                 {Exp.map(Exp =>(
                     <div key={Exp.date} className='Exp-div'>
                        
