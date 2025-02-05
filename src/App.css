@@ -5,7 +5,7 @@
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
 
-  @apply bg-gray-800
+ 
 }
 
 .herosanjay {
@@ -13,7 +13,7 @@
 }
 
 .header-hover {
-  @apply hover:text-white hover:border-2 hover:bg-red-500 hover:rounded duration-300
+  @apply hover:text-white hover:border-2 hover:bg-[#3B6790] hover:rounded duration-300
 }
 
 header ul li {
@@ -182,11 +182,11 @@ html {
 
 
 .top-conta {
-  @apply  text-white py-10
+  @apply  text-white py-10 bg-gray-800
 }
 
 .top-container {
-  @apply  text-white py-20
+  @apply  text-white py-20 bg-gray-800
 }
 
 .margin-r {
@@ -226,7 +226,7 @@ html {
 }
 
 .Exp-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 bg-gray-800
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg shadow-sm transform transition-transform duration-500 hover:scale-110 bg-gray-600
 }
 
 .proj-div {

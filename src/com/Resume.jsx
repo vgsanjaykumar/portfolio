@@ -7,7 +7,7 @@ import resume from '/asset/Resume sanjay.pdf'
 
 const Resume = () => {
   return (
-  <section className='bg-black  text-white md:flex-row items-center flex flex-col about  ' id='resume' >
+  <section className='bg-gray-800  text-white md:flex-row items-center flex flex-col about  ' id='resume' >
           <div className='md:w-1/2 w-full ' >
           <img  className='resimg h-1/2 hover:scale-110 duration-300'src={resumes} alt="#" />
           </div>

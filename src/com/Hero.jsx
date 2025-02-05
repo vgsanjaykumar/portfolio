@@ -6,10 +6,10 @@ import { AiOutlineGithub ,AiOutlineLinkedin,AiOutlineInstagram,AiOutlineFacebook
 const Hero = () => {
 
   return (
-    <section className=' banner  w-full  bg-black h-[650px] text-white text-center py-32 ' >
+    <section className=' banner  w-full  bg-gray-800 h-[650px] text-white text-center py-32 ' >
      <h1 className='text-4xl  font-bold gap-2 '>Hey ! <br/><span className='my-2 herosanjay'>Im Sanjaykumar v</span> </h1>
     <p className='p-5 text-2xl letter-type'> Im a
-         <span className='text-red-500 '>
+         <span className='text-[#EFB036] '>
               <Typewriter 
             loop
              typeSpeed={60}

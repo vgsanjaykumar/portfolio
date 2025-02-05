@@ -9,15 +9,15 @@ const Headers = () => {
 
    const [menu,setMenu] = useState(false);   
     return (
-    <header className='flex justify-between  bg-primary  text-2xl font-serif ease-in duration-200' > 
+    <header className='flex justify-between  bg-primary   text-2xl font-serif ease-in duration-200 bg-gray-800' > 
     
     
     
            <div className="py-24 md:py-32  duration-300 opacity-0 md:opacity-100">
                 <div className="flex items-center gap-x-4">
-                           <img alt="" src={img} className="size-20 rounded-full shadow-2xl shadow-red-500" />
+                           <img alt="" src={img} className="size-20 rounded-full shadow-2xl shadow-gray-400" />
                            <div className=''>
-                             <h3 className="  text-white font-bold   shadow-2xl shadow-red-500 ">Welcome to my world</h3>
+                             <h3 className="  text-white font-bold   ">Welcome to my world</h3>
                            </div>
                          </div>
                </div>
