@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
+
+  @apply bg-gray-800
 }
 
 .herosanjay {
@@ -94,11 +96,11 @@ html {
 }
 
 .proj-sec {
-  @apply py-20 items-center bg-black text-white
+  @apply py-20 items-center  text-white
 }
 
 .proj-sec1 {
-  @apply py-10 px-10 bg-black text-white flex justify-center
+  @apply py-10 px-10  text-white flex justify-center
 }
 
 .proj-head {
@@ -180,11 +182,11 @@ html {
 
 
 .top-conta {
-  @apply bg-black text-white py-10
+  @apply  text-white py-10
 }
 
 .top-container {
-  @apply bg-black text-white py-20
+  @apply  text-white py-20
 }
 
 .margin-r {
