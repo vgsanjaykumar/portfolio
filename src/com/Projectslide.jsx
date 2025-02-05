@@ -61,10 +61,8 @@ const Projectslide = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    
     speed: 1000,
     autoplaySpeed: 500,
-    loop:true,
   
     responsive: [
       {
