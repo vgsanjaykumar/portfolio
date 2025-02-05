@@ -21,10 +21,10 @@ const Hero = () => {
         </p>
 
         <div className="socialmedia text-white flex justify-center  ">
-            <a href='https://www.linkedin.com/in/sanjay-kumar-v-a4a770261/' target='blank' className='hover:text-red-500' > <AiOutlineLinkedin size={40} />  </a>
-            <a href='https://www.instagram.com/sanju_na_mass/' target='blank' className='hover:text-red-500'> <AiOutlineInstagram size={40} />  </a>
-            <a href='https://www.facebook.com/share/15QvxoZCn3/'target='blank' className='hover:text-red-500'> <AiOutlineFacebook size={40} />  </a>
-              <a href='https://github.com/vgsanjaykumar' target='blank' className='hover:text-red-500 ' > <AiOutlineGithub size={40}  />  </a>
+            <a href='https://www.linkedin.com/in/sanjay-kumar-v-a4a770261/' target='blank' className='hover:text-[#EFB036]' > <AiOutlineLinkedin size={40} />  </a>
+            <a href='https://www.instagram.com/sanju_na_mass/' target='blank' className='hover:text-[#EFB036]'> <AiOutlineInstagram size={40} />  </a>
+            <a href='https://www.facebook.com/share/15QvxoZCn3/'target='blank' className='hover:text-[#EFB036]'> <AiOutlineFacebook size={40} />  </a>
+              <a href='https://github.com/vgsanjaykumar' target='blank' className='hover:text-[#EFB036] ' > <AiOutlineGithub size={40}  />  </a>
             
             
         </div>
