@@ -9,7 +9,7 @@ const Resume = () => {
   return (
   <section className='bg-gray-800  text-white md:flex-row items-center flex flex-col about  ' id='resume' >
           <div className='md:w-1/2 w-full ' >
-          <img  className='resimg h-1/2 hover:scale-110 duration-300'src={resumes} alt="#" />
+          <img  className='resimg h-1/2 hover:scale-110 duration-300 'src={resumes} alt="#" />
           </div>
           <div className='flex justify-center  md:w-full lg:w-1/3 w-full  '>
               <div className=' flex flex-col  items-center ' >

@@ -68,7 +68,7 @@ header ul li {
 }
 
 .about-img {
-  @apply w-80 h-80 rounded-4xl duration-500 object-contain mb-8 md:mb-0 hover:scale-115 shadow-2xl shadow-[#3B6790]
+  @apply w-80 h-80 rounded-4xl duration-500 object-contain mb-8 md:mb-0 hover:scale-115  shadow-[#3B6790] hover:shadow-lg
 }
 
 .about-head {
@@ -224,7 +224,7 @@ html {
 }
 
 .Exp-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg  shadow-[#EFB036] transform transition-transform duration-500 hover:scale-110 bg-gray-600 
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg  shadow-[#EFB036] transform transition-transform duration-500 hover:scale-110 bg-[#3B6790]
 }
 
 .proj-div {
