@@ -44,12 +44,6 @@ const Exp =[
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
 
-    {
-        date:"./asset/landpage 2.png",
-        title: "Landing page ",
-        description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
-    },
-
   
 
 ];
