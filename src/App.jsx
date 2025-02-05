@@ -8,7 +8,7 @@ import Resume from './com/Resume'
 import Contact from './com/Contact'
 import Footer from './com/Footer'
 import Experience from './com/Experience'
-import Projectslide from './com/projectslide'
+import Projectslide from './com/Projectslide'
 
 
 
