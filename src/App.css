@@ -5,7 +5,7 @@
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
 
- 
+
 }
 
 .herosanjay {
@@ -13,7 +13,7 @@
 }
 
 .header-hover {
-  @apply   hover:text-[#EFB036] hover:rounded duration-300
+  @apply hover:text-[#EFB036] hover:rounded duration-300
 }
 
 header ul li {
@@ -68,7 +68,7 @@ header ul li {
 }
 
 .about-img {
-  @apply w-80 h-80 rounded-4xl duration-500 object-contain mb-8 md:mb-0 hover:scale-115  shadow-[#3B6790] hover:shadow-lg
+  @apply w-80 h-80 rounded-4xl duration-500 object-contain mb-8 md:mb-0 hover:scale-115 shadow-[#3B6790] hover:shadow-lg
 }
 
 .about-head {
@@ -96,11 +96,11 @@ html {
 }
 
 .proj-sec {
-  @apply py-20 items-center  text-white
+  @apply py-20 items-center text-white
 }
 
 .proj-sec1 {
-  @apply py-10 px-10  text-white flex justify-center
+  @apply py-10 px-10 text-white flex justify-center
 }
 
 .proj-head {
@@ -112,8 +112,9 @@ html {
 }
 
 .proj-desc {
-  @apply absolute left-7 right-7 bottom-17 top-3 bg-[#3B6790] duration-500 opacity-0 hover:opacity-100 hover:scale-105 rounded
+  @apply absolute left-1 right-1 bottom-2 top-0 bg-[#030508cf] duration-500 opacity-0 hover:opacity-100 hover:scale-91 rounded flex flex-col justify-center items-center px-5  
 }
+
 
 .sec-col {
   @apply py-8
@@ -182,11 +183,11 @@ html {
 
 
 .top-conta {
-  @apply  text-white py-10 bg-gray-800
+  @apply text-white py-10 bg-gray-800
 }
 
 .top-container {
-  @apply  text-white py-20 bg-gray-800
+  @apply text-white py-20 bg-gray-800
 }
 
 .margin-r {
@@ -224,11 +225,11 @@ html {
 }
 
 .Exp-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg  shadow-[#3B6790] transform transition-transform duration-500 hover:scale-110 bg-gray-600 
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg shadow-[#3B6790] transform transition-transform duration-500 hover:scale-110 bg-gray-600
 }
 
 .proj-div {
-  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 cursor-pointer
 }
 
 .exp-id {
@@ -236,7 +237,7 @@ html {
 }
 
 .exp-title {
-  @apply mt-2 text-2xl font-bold text-[#EFB036] bg-clip-text  text-center
+  @apply mt-2 text-2xl font-bold text-[#EFB036] bg-clip-text text-center
 }
 
 .exp-p {
@@ -251,26 +252,28 @@ html {
   @apply mt-2 w-full rounded h-60 md:h-80 lg:h-60
 }
 
-.proj-p {
-  @apply mt-18 mr-2 mx-auto text-left pl-2 md:mt-25 lg:mt-15
-}
 
 
 .button-all {
   @apply bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
 }
+
 .button-all-submit {
-  @apply  mr-2 bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full  
-  
+  @apply mr-2 bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full mt-5
 }
 
 .button-all-submits {
-  @apply mr-2 bg-[#EFB036]  font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
+  @apply mr-2 bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
 }
 
 .about-button {
   @apply text-2xl font-bold text-center mb-12
 }
 
+.projectslide-img {
+  @apply h-80 w-full
+}
 
-
+.proj-p{
+  @apply mt-5 mb-5
+}
