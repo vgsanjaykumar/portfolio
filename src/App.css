@@ -236,7 +236,7 @@ html {
 }
 
 .exp-title {
-  @apply mt-2 text-2xl font-bold text-transparent bg-clip-text bg-[#EFB036] text-center
+  @apply mt-2 text-2xl font-bold text-[#EFB036] bg-clip-text  text-center
 }
 
 .exp-p {
