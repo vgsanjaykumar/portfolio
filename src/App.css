@@ -80,7 +80,7 @@ header ul li {
 }
 
 .progessbar {
-  @apply bg-gradient-to-r from-[#EFB036] to-orange-500 h-2.5 rounded-full transform transition-transform duration-500 hover:scale-110
+  @apply bg-gradient-to-r from-[#EFB036] to-gray-300 h-2.5 rounded-full transform transition-transform duration-500 hover:scale-110
 }
 
 .progesbar-1 {
