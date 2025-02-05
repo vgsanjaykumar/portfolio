@@ -3,10 +3,12 @@ import './App.css'
 import Headers from './com/Header'
 import Hero from './com/Hero'
 import Aboutme from './com/Aboutme'
-import Project from './com/Project'
+
 import Resume from './com/Resume'
 import Contact from './com/Contact'
 import Footer from './com/Footer'
+import Experience from './com/Experience'
+import Projects from './com/Projects,'
 
 
 
@@ -16,10 +18,13 @@ const App = () => {
     <Headers/>
     <Hero/>
     <Aboutme/>
-    <Project/>
+    <Experience/>
+    <Projects />
     <Resume/>
     <Contact/>
     <Footer/>
+    
+    
   
     </div>
 

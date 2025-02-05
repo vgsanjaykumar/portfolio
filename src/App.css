@@ -70,7 +70,7 @@ header ul li {
 }
 
 .about-head {
-  @apply flex flex-col md:flex-row items-center md:space-x-12 
+  @apply flex flex-col md:flex-row items-center md:space-x-12
 }
 
 .about-p {
@@ -94,7 +94,7 @@ html {
 }
 
 .proj-sec {
-  @apply py-50 items-center bg-black text-white
+  @apply py-20 items-center bg-black text-white
 }
 
 .proj-sec1 {
@@ -110,11 +110,7 @@ html {
 }
 
 .proj-desc {
-  @apply absolute left-0 right-0 bottom-0 top-0 bg-red-600 duration-500 opacity-0 hover:opacity-100 hover:scale-105
-}
-
-.proj-titlr {
-  @apply py-15 px-2 items-center text-center
+  @apply absolute left-7 right-7 bottom-17 top-3 bg-gray-800 duration-500 opacity-0 hover:opacity-100 hover:scale-105 rounded
 }
 
 .sec-col {
@@ -225,4 +221,40 @@ html {
 
 .footer-input {
   @apply w-full p-2 rounded bg-red-800 border border-gray-400 focus:outline-none focus:border-white
+}
+
+.Exp-div {
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 bg-gray-800
+}
+
+.proj-div {
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 
+}
+
+.exp-id {
+  @apply font-bold bg-clip-text text-gray-300 mt-2
+}
+
+.exp-title {
+  @apply mt-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-red-600 text-center
+}
+
+.exp-p {
+  @apply mt-2 text-gray-300
+}
+
+.exp-a {
+  @apply mt-4 inline-block text-red-500 hover:text-gray-200
+}
+
+.projects-img {
+  @apply mt-2 w-full rounded h-60 md:h-80 lg:h-60
+}
+
+.proj-p{
+  @apply  mt-30  mx-auto text-left pl-2 md:mt-10 lg:mt-15
+}
+
+.proj-a {
+  @apply inline-block text-red-500 hover:text-gray-200  ml-2  
 }
