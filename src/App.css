@@ -112,7 +112,7 @@ html {
 }
 
 .proj-desc {
-  @apply absolute left-1 right-1 bottom-2 top-0 bg-[#030508cf] duration-500 opacity-0 hover:opacity-100 hover:scale-91 rounded flex flex-col justify-center items-center px-5  
+  @apply absolute left-1 right-1 bottom-2 top-0 bg-[#030508cf] duration-500 opacity-0 hover:opacity-100 hover:scale-91 rounded flex flex-col justify-center items-center px-5
 }
 
 
@@ -271,9 +271,9 @@ html {
 }
 
 .projectslide-img {
-  @apply h-80 w-full
+  @apply h-60 w-full md:h-60
 }
 
-.proj-p{
+.proj-p {
   @apply mt-5 mb-5
 }
