@@ -279,8 +279,35 @@ html {
 }
 
 .div-card{
-  @apply h-screen bg-[#00052a] flex items-center justify-center
+  @apply  bg-[#00052a] flex items-center justify-center 
 }
 .card{
-  @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 to-red-600/40 h-44
+  @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 to-red-600/40 h-44 text-center px-3 py-7 self-end relative delay-100 duration-700
+}
+
+.card-logo{
+  @apply text-5xl  mt-2  max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem]  rounded-full bg-red-200 text-red-500 grid  place-items-center
+}
+
+.card-title{
+  @apply text-3xl mt-2 font-semibold
+}
+
+.card-active{
+  @apply h-96 
+}
+
+.para{
+  @apply mt-5
+}
+.skill-level{
+  @apply border-2 border-gray-200 text-white md:min-w-[2rem] md:min-h-[2rem] md:max-w-[2rem] lg:min-w-[3rem] lg:min-h-[3rem] lg:max-w-[3rem]
+   bg-red-600 grid place-items-center rounded-full 
+  absolute  right-3 md:-right-2 md:bottom-10 lg:bottom-15 lg:-right-2 scale-0 
+}
+.card-active .skill-level {
+  @apply scale-[1.3] delay-700 duration-500
+}
+.card-active .card-logo{
+  @apply bg-red-500 text-red-200
 }
