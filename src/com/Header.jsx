@@ -9,7 +9,7 @@ const Headers = () => {
 
    const [menu,setMenu] = useState(false);   
     return (
-    <header className='flex justify-between  bg-primary   text-2xl font-serif ease-in duration-200 bg-gray-800' > 
+    <header className='flex justify-between  bg-primary   text-2xl font-serif ease-in duration-200 bg-[#00052a]' > 
     
     
     

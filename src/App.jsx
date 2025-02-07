@@ -9,6 +9,7 @@ import Contact from './com/Contact'
 import Footer from './com/Footer'
 import Experience from './com/Experience'
 import Projectslide from './com/Projectslide'
+import Skill from './com/Skills'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
     <Resume/>
     <Contact/>
     <Footer/>
+    <Skill/>
 
    
     
