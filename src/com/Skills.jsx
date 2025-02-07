@@ -71,7 +71,9 @@ const Skill = () => {
             <h2 className='card-title'>{lang.Name}</h2>
             <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, doloribus 
               laborum repellendus deserunt excepturi .</p>
-              <div className='skill-level'>{lang.skills}</div>
+              <div className='skill-level'>
+                {lang.skills}
+              </div>
           </div>
         </div>
       </SwiperSlide>

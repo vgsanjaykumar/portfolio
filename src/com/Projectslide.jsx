@@ -5,41 +5,41 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Exp =[
     {
-        date:"./asset/e-com.jpg",
+        img:"./asset/e-com.jpg",
         title: "Landing page",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
        
     },
     {
-        date: "./asset/landing page.jpeg",
+        img: "./asset/landing page.jpeg",
         title: "E-commernce",
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
 
     {
-        date:"./asset/landpage 2.png",
+        img:"./asset/landpage 2.png",
         title: "Landing page ",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
         {
-        date:"./asset/e-com.jpg",
+        img:"./asset/e-com.jpg",
         title: "Landing page",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
        
     },
     {
-        date: "./asset/landing page.jpeg",
+        img: "./asset/landing page.jpeg",
         title: "E-commernce",
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
 
     {
-        date:"./asset/landpage 2.png",
+        img:"./asset/landpage 2.png",
         title: "Landing page ",
         description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
         {
-        date: "./asset/landing page.jpeg",
+        img: "./asset/landing page.jpeg",
         title: "E-commernce",
          description: "A landing page is a focused web page designed for marketing, featuring a clear CTA to drive conversions, leads, or sales.",
     },
@@ -96,8 +96,8 @@ const Projectslide = () => {
             
               <Slider {...settings}>
                  {Exp.map(Exp =>(
-                    <div key={Exp.date} className='proj-div' >
-                        <img src={Exp.date} className='projectslide-img' alt="" />
+                    <div key={Exp.img} className='proj-div' >
+                        <img src={Exp.img} className='projectslide-img' alt="" />
                         <div className="proj-desc">
                           <h1 className='text-2xl font-bold text-[#EFB036] proj-p'>{Exp.title}</h1>
                              <p className=''>{Exp.description}</p>
