@@ -19,12 +19,31 @@ const Skill = () => {
           <div className={`card  `}>
             <h2>react.js</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, doloribus 
-              laborum repellendus deserunt excepturi fugiat quam eum, in recusandae ipsam id
-               consequun</p>
+              laborum repellendus deserunt excepturi .</p>
           </div>
         </div>
       </SwiperSlide>
       
+      <SwiperSlide>
+        <div className="h-96 flex"> 
+          <div className={`card  `}>
+            <h2>react.js</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, doloribus 
+              laborum repellendus deserunt excepturi .</p>
+          </div>
+        </div>
+      </SwiperSlide>
+
+
+      <SwiperSlide>
+        <div className="h-96 flex"> 
+          <div className={`card  `}>
+            <h2>react.js</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, doloribus 
+              laborum repellendus deserunt excepturi .</p>
+          </div>
+        </div>
+      </SwiperSlide>
       
     </Swiper>
       </div>
