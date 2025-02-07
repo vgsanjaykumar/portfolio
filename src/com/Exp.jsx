@@ -49,6 +49,7 @@ const Exp = () => {
      <section>
        <div className="top-container ">
         <div className="container ">
+              <h2 className='about-text  hover:text-[#EFB036]'>EXPERIENCE</h2>
           <div className='exp-div-card text-white'>
       <div className="md:min-w-2xl lg:min-w-3xl  xl:minw-5xl min-w-8">
          <Swiper
