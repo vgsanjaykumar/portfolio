@@ -13,7 +13,7 @@
 }
 
 .header-hover {
-  @apply hover:text-[#EFB036] hover:rounded duration-300
+  @apply hover:text-[#EFB036]  hover:rounded duration-300
 }
 
 header ul li {
