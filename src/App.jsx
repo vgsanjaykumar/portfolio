@@ -10,6 +10,8 @@ import Projectslide from './com/Projectslide'
 import Skill from './com/Skills'
 import Exp from './com/Exp'
 
+import Experience from './com/Experience'
+
 
 
 const App = () => {
@@ -30,7 +32,7 @@ const App = () => {
    
     
     
-  
+   <Experience/>
     </div>
 
     
