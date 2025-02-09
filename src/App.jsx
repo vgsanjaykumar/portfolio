@@ -7,10 +7,9 @@ import Resume from './com/Resume'
 import Contact from './com/Contact'
 import Footer from './com/Footer'
 import Projectslide from './com/Projectslide'
-import Skill from './com/Skills'
 import Exp from './com/Exp'
 
-import Experience from './com/Experience'
+
 
 
 
@@ -26,13 +25,6 @@ const App = () => {
     <Resume/>
     <Contact/>
     <Footer/>
-    <Skill/>
-    
-
-   
-    
-    
-   <Experience/>
     </div>
 
     

@@ -89,7 +89,7 @@ const Projectslide = () => {
    
      <section>
        
-      <div className="top-container ">
+      <div className="top-container " id='Project'>
         <div className="container ">
             <h3 className='about-text  hover:text-[#EFB036]'>Projects</h3>
 
