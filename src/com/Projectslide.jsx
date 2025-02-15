@@ -99,7 +99,7 @@ const Projectslide = () => {
                     <div key={Exp.img} className='proj-div' >
                         <img src={Exp.img} className='projectslide-img' alt="" />
                         <div className="proj-desc">
-                          <h1 className='text-2xl font-bold text-[#EFB036] proj-p'>{Exp.title}</h1>
+                          <h1 className='text-sm md:text-2xl font-bold text-[#EFB036] proj-p'>{Exp.title}</h1>
                              <p className=''>{Exp.description}</p>
                              <a href="#" className=' button-all-submit'>Readmore</a>
                              
