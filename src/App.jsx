@@ -8,6 +8,7 @@ import Contact from './com/Contact'
 import Footer from './com/Footer'
 import Projectslide from './com/Projectslide'
 import Exp from './com/Exp'
+import WhatsApp from './com/Whatapp'
 
 
 
@@ -23,8 +24,9 @@ const App = () => {
     
     <Projectslide/>
     <Resume/>
-    <Contact/>
+   <Contact/>
     <Footer/>
+    <WhatsApp/>
     </div>
 
     
