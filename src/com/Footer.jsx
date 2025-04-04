@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
-import { FaFacebook, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 
 const Footer = () => {
 
 
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = React.useState(""); 
 
   const onSubmit = async (event) => {
     event.preventDefault();
