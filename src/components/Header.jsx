@@ -8,7 +8,7 @@ import img from '/asset/me.png';
 const Headers = () => {
   const [menu, setMenu] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem('theme') === 'dark';
+    return localStorage.getItem('theme') === 'light';
   });
 
   useEffect(() => {
