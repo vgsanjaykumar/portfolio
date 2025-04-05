@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section className=' banner  w-full  bg-[#00052a] h-[650px] text-white text-center py-32 ' >
-     <h1 className='text-4xl  font-bold gap-2 '>Hey ! <br/><span className='my-2 herosanjay'>Im Sanjaykumar v</span> </h1>
+     <h1 className='text-4xl  font-bold gap-2 '>Hey ! <br/><span className='my-2 top-2'>Im Sanjaykumar v</span> </h1>
     <p className='p-5 text-2xl letter-type'> Im a
          <span className='text-[#EFB036] '>
               <Typewriter 
@@ -20,7 +20,7 @@ const Hero = () => {
         <Cursor/>
         </p>
 
-        <div className="socialmedia text-white flex justify-center  ">
+      <div className="py-5 gap-8 text-white flex justify-center  ">
             <a href='https://www.linkedin.com/in/sanjay-kumar-v-a4a770261/' target='blank' className='hover:text-[#EFB036]' > <AiOutlineLinkedin size={40} />  </a>
             <a href='https://www.instagram.com/sanju_na_mass/' target='blank' className='hover:text-[#EFB036]'> <AiOutlineInstagram size={40} />  </a>
             <a href='https://www.facebook.com/share/15QvxoZCn3/'target='blank' className='hover:text-[#EFB036]'> <AiOutlineFacebook size={40} />  </a>

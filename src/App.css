@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 * {
   margin: 0;
   padding: 0;
@@ -45,9 +46,6 @@ header ul li {
   @apply border-b-2 w-full text-center h-full p-4 hover:bg-gray-600 left-0 hover:scale-105 duration-200
 }
 
-.socialmedia {
-  @apply py-5 gap-8
-}
 
 .about {
   @apply px-5 py-20 items-center
@@ -56,7 +54,6 @@ header ul li {
 .abouth1 {
   @apply pb-8
 }
-button-all-submit
 
 
 .about-text {
