@@ -13,7 +13,7 @@ import WhatsAppPopup from './components/Whatapp'
 
 const App = () => {
   return (
-    <div className="bg-white text-black dark:bg-[#00052a] dark:text-white transition-all duration-300">
+    <div className="bg-white text-blue-600 dark:bg-[#00052a] dark:text-white transition-all duration-300">
       <Headers />
       <Hero />
       <Aboutme />

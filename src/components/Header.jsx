@@ -23,14 +23,14 @@ const Headers = () => {
   }, [darkMode]);
 
   return (
-    <header className='flex justify-between items-center px-4 py-4 bg-white dark:bg-[#00052a] text-black dark:text-white text-xl font-serif relative z-50'>
+    <header className='flex justify-between items-center px-4 py-4 bg-white dark:bg-[#00052a] text-teal-500 dark:text-white text-xl font-serif relative z-50'>
 
-      {/* Profile */}
+      {/* im */}
       <div className="flex items-center gap-x-4">
         <img alt="Profile" src={img} className="size-14 md:size-20 rounded-full shadow-lg" />
       </div>
 
-      {/* Desktop Navigation */}
+      {/* Desktop navbar  */}
       <nav className='hidden md:flex gap-6 items-center'>
         <ul className='flex gap-x-6'>
           <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='/'>Home</a></li>
