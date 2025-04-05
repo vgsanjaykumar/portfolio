@@ -1,0 +1,314 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+header ul li {
+    @apply px-5 hover:border-amber-50
+}
+
+
+
+
+.about {
+    @apply px-5 py-20 items-center
+}
+
+.abouth1 {
+    @apply pb-8
+}
+
+
+.about-text {
+    @apply text-4xl font-bold text-center mb-12
+}
+
+
+
+
+.about-text {
+    @apply text-4xl font-bold text-center mb-10
+}
+
+.about-head {
+    @apply flex flex-col md:flex-row items-center md:space-x-12
+}
+
+.about-p {
+    @apply text-lg mb-8 my-4
+}
+
+.progessbar {
+    @apply bg-gradient-to-r from-[#EFB036] to-gray-300 h-2.5 rounded-full transform transition-transform duration-500 hover:scale-110
+}
+
+.progesbar-1 {
+    @apply grow bg-gray-600 rounded-full h-2.5
+}
+
+.prog-top {
+    @apply space-y-4
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.proj-sec {
+    @apply py-20 items-center text-white
+}
+
+.proj-sec1 {
+    @apply py-10 px-10 text-white flex justify-center
+}
+
+.proj-head {
+    @apply items-center
+}
+
+.proj-img {
+    @apply px-8 md:px-2 gap-6
+}
+
+.proj-desc {
+    @apply absolute left-1 right-1 bottom-2 top-0 bg-[#030508cf] duration-500 opacity-0 hover:opacity-100 hover:scale-90 rounded flex flex-col justify-center items-center px-5
+}
+
+
+.sec-col {
+    @apply py-8
+}
+
+.btn-res {
+    @apply bg-[#3B6790] px-4 py-2 font-bold hover:border-2 border-white rounded mx-20 my-5
+}
+
+.contact {
+    @apply py-20 px-5
+}
+
+.contactdecs {
+    @apply mb-8
+}
+
+.footer-decs {
+    @apply py-8 flex justify-center text-center
+}
+
+.foo-cen {
+    @apply flex justify-center
+}
+
+.projimg {
+    height: 250px;
+    width: 500px;
+
+
+}
+
+
+.contact-des {
+    @apply mb-4 mt-8
+}
+
+.contact-des1 {
+    @apply mb-4
+}
+
+.contact-container {
+    @apply mx-auto px-8 md:px-16 lg:px-24
+}
+
+.contact-tit {
+    @apply text-4xl font-bold text-center mb-12
+}
+
+.cont-titl-2 {
+    @apply flex flex-col md:flex-row items-center md:space-x-12 w-full
+}
+
+
+
+
+
+
+
+.top-container {
+    @apply text-white py-20 bg-[#00052a]
+}
+
+.margin-r {
+    @apply mr-2
+}
+
+.formlabile {
+    @apply block mb-2
+}
+
+
+
+
+
+
+
+
+.footer-less {
+    @apply border-t border-[#3B6790] pt-4 flex flex-col md:flex-row justify-between items-center
+}
+
+.footer-input {
+    @apply w-full p-2 rounded bg-[#3B6790] border border-gray-400 focus:outline-none focus:border-white
+}
+
+.Exp-div {
+    @apply px-6 pb-6 rounded-lg hover:shadow-lg shadow-[#3B6790] transform transition-transform duration-500 hover:scale-110 bg-gray-600
+}
+
+.proj-div {
+    @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 cursor-pointer
+}
+
+.exp-id {
+    @apply font-bold bg-clip-text text-gray-300 mt-2
+}
+
+.exp-title {
+    @apply mt-2 text-2xl font-bold text-[#EFB036] bg-clip-text text-center
+}
+
+.exp-p {
+    @apply mt-2 text-gray-300
+}
+
+.exp-a {
+    @apply mt-4 inline-block text-[#EFB036] hover:text-gray-200
+}
+
+.projects-img {
+    @apply mt-2 w-full rounded h-60 md:h-80 lg:h-60
+}
+
+
+
+.button-all {
+    @apply bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
+}
+
+.button-all-submit {
+    @apply mr-2 bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full mt-5
+}
+
+.button-all-submits {
+    @apply mr-2 bg-[#EFB036] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 px-2 rounded-full
+}
+
+.about-button {
+    @apply text-2xl font-bold text-center mb-12
+}
+
+.projectslide-img {
+    @apply h-60 w-full md:h-60
+}
+
+.proj-p {
+    @apply mt-5 mb-5
+}
+
+.div-card {
+    @apply bg-[#00052a] flex items-center justify-center
+}
+
+.card {
+    @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 to-red-600/40 h-44 text-center px-3 py-7 self-end relative delay-100 duration-700
+}
+
+.card-logo {
+    @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full bg-red-200 text-red-500 grid place-items-center
+}
+
+.card-title {
+    @apply text-3xl mt-2 font-semibold
+}
+
+.card-active {
+    @apply h-96
+}
+
+.para {
+    @apply mt-5
+}
+
+
+.card-active .skill-level {
+    @apply scale-[1.3] delay-700 duration-500
+}
+
+.card-active .card-logo {
+    @apply bg-red-500 text-red-200
+}
+
+.exp-logo {
+    @apply mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full bg-red-200 text-blue-500 grid place-items-center
+}
+
+.exp-card {
+    @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 to-red-600/40 h-44 text-center px-3 py-7 self-end relative delay-100 duration-700
+}
+
+.exp-div-card {
+    @apply bg-[#00052a] flex items-center justify-center
+}
+
+.exp-card-active {
+    @apply h-96
+}
+
+.exp-card-active .exp-skill-level {
+    @apply scale-[1.3] delay-700 duration-500
+}
+
+.exp-card-active .exp-card-logo {
+    @apply bg-blue-500 text-red-200
+}
+
+.exp-card-title {
+    @apply text-3xl font-semibold md:text-2xl
+}
+
+.exp-des {
+    @apply text-left mt-2
+}
+
+.exp-para {
+    @apply mt-5 text-left
+}
+
+
+/* App.css */
+.header-hover a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.header-hover a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #facc15;
+    /* yellow-400 */
+    transition: width 0.3s ease;
+}
+
+.header-hover a:hover::after {
+    width: 100%;
+}

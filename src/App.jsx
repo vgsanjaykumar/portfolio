@@ -1,14 +1,15 @@
 import React from 'react'
-import './App.css'
-import Headers from './com/Header'
-import Hero from './com/Hero'
-import Aboutme from './com/Aboutme'
-import Resume from './com/Resume'
-import Contact from './com/Contact'
-import Footer from './com/Footer'
-import Projectslide from './com/Projectslide'
-import Exp from './com/Exp'
-import WhatsApp from './com/Whatapp'
+import './index.css'
+import Headers from './components/Header'
+import Hero from './components/Hero'
+import Aboutme from './components/Aboutme'
+import Exp from './components/Exp'
+import Projectslide from './components/Projectslide'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import WhatsAppPopup from './components/Whatapp'
+
 
 const App = () => {
   return (
@@ -21,8 +22,8 @@ const App = () => {
       <Resume />
       <Contact />
       <Footer />
-      
-      <WhatsApp />
+
+      <WhatsAppPopup/>
     </div>
   )
 }
