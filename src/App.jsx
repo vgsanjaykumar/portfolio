@@ -10,27 +10,20 @@ import Projectslide from './com/Projectslide'
 import Exp from './com/Exp'
 import WhatsApp from './com/Whatapp'
 
-
-
-
-
-
 const App = () => {
   return (
-    <div >
-    <Headers/>
-    <Hero/>
-    <Aboutme/>
-    <Exp/>
-    
-    <Projectslide/>
-    <Resume/>
-   <Contact/>
-    <Footer/>
-    <WhatsApp/>
+    <div className="bg-white text-black dark:bg-[#00052a] dark:text-white transition-all duration-300">
+      <Headers />
+      <Hero />
+      <Aboutme />
+      <Exp />
+      <Projectslide />
+      <Resume />
+      <Contact />
+      <Footer />
+      
+      <WhatsApp />
     </div>
-
-    
   )
 }
 

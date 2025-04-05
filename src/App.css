@@ -351,3 +351,25 @@ html {
 .exp-para {
   @apply mt-5 text-left
 }
+
+
+/* App.css */
+.header-hover a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header-hover a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #facc15; /* yellow-400 */
+  transition: width 0.3s ease;
+}
+
+.header-hover a:hover::after {
+  width: 100%;
+}
