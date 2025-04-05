@@ -5,32 +5,32 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projects = [
   {
-    img: "./asset/ahmedpaint.png",
+    img: "./asset/project/ahmedpaint.png",
     title: "Ahmed Paint Traders Website",
     description: "A fully responsive React website for a local paint shop with product showcase and WhatsApp inquiry integration. Built using React and Tailwind CSS. Deployed on Hostinger.",
     link: "https://ahmedpainttraders.in/",
   },
   {
-    img: "./asset/natarajan and co.png",
+    img: "./asset/project/natarajan_and_co.png",
     title: "Natarajan & Co Landing Page",
     description: "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design. Deployed on Hostinger.",
     link: "https://natarajanandco.com/",
   },
   {
-    img: "./asset/landpage 2.png",
+    img: "./asset/project/hr_desk.png",
     title: "Smart Automated Resume Screening & Interview Scheduling System",
     description: "An automated web app for screening resumes and scheduling interviews, built with React.js and Node.js, and automated using UiPath.",
     link: "https://hrdesktop.netlify.app/",
   },
 
   {
-    img: "./asset/melody.png",
+    img: "./asset/project/melody.png",
     title: "Melody Photography – Karaikudi",
     description: "A visually elegant React portfolio site for a local photography studio, showcasing services, photo galleries, and client contact options. Built with React and Tailwind CSS. Deployed on Netlify.",
     link: "https://melodyphotographyps.netlify.app/",
   },
   {
-    img: "./asset/vs traders.png",
+    img: "./asset/project/vs_traders.png",
     title: "Vs Traders – Karaikudi",
     description: "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design..",
     link: "https://vstraders.netlify.app/",
