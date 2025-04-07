@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer Content */}
-        <div className="border-t border-gray-300 dark:border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-600 dark:text-gray-400">
+        <div className="border-t border-blue-400 dark:border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-600 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} Sanjaykumar</p>
 
           {/* Social Icons */}
