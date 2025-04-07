@@ -5,7 +5,7 @@ import resumePDF from '/asset/Resume sanjay.pdf';
 const Resume = () => {
   return (
     <section
-      className="bg-white text-gray-900 dark:bg-[#00052a] dark:text-white flex flex-col md:flex-row items-center justify-center py-12 px-6 transition-colors duration-300"
+      className="bg-white text-gray-900 dark:bg-[#00052a] dark:text-white flex flex-col md:flex-row items-center justify-center py-12 px-6 transition-colors duration-500 overflow-hidden"
       id="resume"
     >
       {/* Left - Resume Image */}
@@ -23,7 +23,7 @@ const Resume = () => {
           <h1 className="font-bold text-3xl hover:text-[#EFB036] transition duration-300">
             Download CV
           </h1>
-          <p className="text-xl text-gray-700 dark:text-gray-300">
+          <p className="text-xl text-gray-400 dark:text-gray-300">
             You can view or download my resume
           </p>
           <a
@@ -31,7 +31,7 @@ const Resume = () => {
             download="Sanjay_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#EFB036] text-white px-6 py-2 rounded-md hover:bg-[#dfa029] transition-transform hover:scale-105 font-medium"
+            className="dark:bg-[#EFB036] bg-[#3e65ff6c] hover:bg-[#3e64ff]  text-white px-6 py-2 rounded-md dark:hover:bg-[#dfa029] transition-transform hover:scale-105 font-medium"
           >
             Download
           </a>

@@ -62,7 +62,7 @@ const WhatsAppPopup = () => {
         <>
             {/* Floating WhatsApp Button */}
             <button
-                className="fixed bottom-6 left-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50"
+                className="fixed bottom-6 left-6 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg z-50"
                 onClick={togglePopup}
             >
                 <FaWhatsapp size={24} className="animate-pulse" />

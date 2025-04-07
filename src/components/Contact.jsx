@@ -64,7 +64,7 @@ const Contact = () => {
       setFormData({ name: '', email: '', number: '', message: '' });
       setShowPopup(true);
 
-      setTimeout(() => setShowPopup(false), 3000); // hide after 3 seconds
+      setTimeout(() => setShowPopup(false), 3000);
     } else {
       setResult(`❌ ${data.message}`);
     }
@@ -72,7 +72,7 @@ const Contact = () => {
 
   return (
     <section
-      className="py-16 px-6 md:px-16 lg:px-32 bg-white dark:bg-[#00052a] text-gray-900 dark:text-gray-100 transition-colors duration-300"
+      className="py-16 px-6 md:px-16 lg:px-32 bg-white dark:bg-[#00052a] text-gray-900 dark:text-gray-100 transition-colors duration-500"
       id="contact"
     >
       <div className="max-w-7xl mx-auto">
@@ -84,25 +84,25 @@ const Contact = () => {
           {/* Left Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">Let’s Talk</h3>
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="text-gray-400 dark:text-gray-400 leading-relaxed">
               Have a project in mind or just want to say hi? I'm always open to discussing design work, development opportunities, or creative collaborations.
             </p>
 
             <div className="flex items-center gap-3 text-sm">
-              <FaEnvelope className="text-[#EFB036]" />
-              <a href="mailto:vgssanjayboss@gmail.com" className="hover:underline">
+              <FaEnvelope className="dark:text-[#EFB036] text-blue-400" />
+              <a href="mailto:vgssanjayboss@gmail.com" className="hover:underline text-gray-400">
                 vgssanjayboss@gmail.com
               </a>
             </div>
 
             <div className="flex items-center gap-3 text-sm">
-              <FaPhone className="text-[#EFB036]" />
-              <span>9600417117</span>
+              <FaPhone className="dark:text-[#EFB036] text-blue-400" />
+              <span className='text-gray-400'>9600417117</span>
             </div>
 
-            <div className="flex items-center gap-3 text-sm">
-              <FaMapMarkedAlt className="text-[#EFB036]" />
-              <span>Karaikudi, Tamil Nadu</span>
+            <div className="flex items-center gap-3 text-sm ">
+              <FaMapMarkedAlt className="dark:text-[#EFB036] text-blue-400" />
+              <span className='text-gray-400'>Karaikudi, Tamil Nadu</span>
             </div>
           </div>
 
@@ -117,7 +117,7 @@ const Contact = () => {
                   type={field === 'email' ? 'email' : 'text'}
                   name={field}
                   required
-                  className="w-full px-4 py-2 border rounded-lg bg-gray-200 dark:bg-[#3B6790] text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-[#EFB036] focus:outline-none ring-offset-1 dark:ring-offset-[#00052a]"
+                  className="w-full px-4 py-2 border rounded-lg bg-[#d4e7f9] dark:bg-[#3B6790] text-black dark:text-white placeholder-gray-400 dark:placeholder-gray-300 border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-[#EFB036] focus:outline-none ring-offset-1 dark:ring-offset-[#00052a]"
                   placeholder={`Enter your ${field}`}
                   value={formData[field]}
                   onChange={(e) => setFormData({ ...formData, [field]: e.target.value })}
@@ -134,7 +134,7 @@ const Contact = () => {
                 name="message"
                 rows="5"
                 required
-                className="w-full px-4 py-2 border rounded-lg bg-gray-200 dark:bg-[#3B6790] text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-[#EFB036] focus:outline-none ring-offset-1 dark:ring-offset-[#00052a]"
+                className="w-full px-4 py-2 border rounded-lg bg-[#d4e7f9] dark:bg-[#3B6790] text-white dark:text-white placeholder-gray-400 dark:placeholder-gray-300 border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-[#EFB036] focus:outline-none ring-offset-1 dark:ring-offset-[#00052a]"
                 placeholder="Your message"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -147,7 +147,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={result === "Sending..."}
-              className="bg-[#EFB036] hover:bg-[#dfa029] text-white font-medium px-6 py-2 rounded-lg transition-transform hover:scale-105 disabled:opacity-50"
+              className="dark:bg-[#EFB036] bg-[#3e65ff6c] hover:bg-[#3e64ff] dark:hover:bg-[#dfa029] text-white font-medium px-6 py-2 rounded-lg transition-transform hover:scale-105 disabled:opacity-50"
             >
               {result === "Sending..." ? "Sending..." : "Submit"}
             </button>
@@ -155,8 +155,8 @@ const Contact = () => {
             {result && !result.startsWith("✅") && (
               <p
                 className={`mt-4 text-sm px-3 py-2 rounded-md transition-all duration-300 ${result.includes('✅')
-                    ? 'text-green-600 bg-green-100 dark:bg-green-800'
-                    : 'text-red-600 bg-red-100 dark:bg-red-800'
+                  ? 'text-green-600 bg-green-100 dark:bg-green-800'
+                  : 'text-red-600 bg-red-100 dark:bg-red-800'
                   }`}
               >
                 {result}

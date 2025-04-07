@@ -8,7 +8,8 @@ import img from '/asset/me.png';
 const Headers = () => {
   const [menu, setMenu] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem('theme') === 'light';
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme ? savedTheme === 'dark' : true; // ✅ default dark
   });
 
   useEffect(() => {
@@ -23,25 +24,25 @@ const Headers = () => {
   }, [darkMode]);
 
   return (
-    <header className='flex justify-between items-center px-4 py-4 bg-white dark:bg-[#00052a] text-teal-500 dark:text-white text-xl font-serif relative z-50'>
+    <header className='transition-colors duration-500 flex justify-between items-center px-4 py-4 bg-white dark:bg-[#00052a] text-black dark:text-white text-xl font-serif relative z-50'>
 
-      {/* im */}
+      {/* Logo */}
       <div className="flex items-center gap-x-4">
         <img alt="Profile" src={img} className="size-14 md:size-20 rounded-full shadow-lg" />
       </div>
 
-      {/* Desktop navbar  */}
+      {/* Desktop Navbar */}
       <nav className='hidden md:flex gap-6 items-center'>
         <ul className='flex gap-x-6'>
-          <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='/'>Home</a></li>
-          <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='#about'>About</a></li>
-          <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='#Project'>Project</a></li>
-          <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='#contact'>Contact</a></li>
-          <li className='hover:text-[#EFB036] hover:rounded duration-300'><a href='#resume'>Download CV</a></li>
+          <li className='hover:text-[#EFB036] duration-300'><a href='/'>Home</a></li>
+          <li className='hover:text-[#EFB036] duration-300'><a href='#about'>About</a></li>
+          <li className='hover:text-[#EFB036] duration-300'><a href='#Project'>Project</a></li>
+          <li className='hover:text-[#EFB036] duration-300'><a href='#contact'>Contact</a></li>
+          <li className='hover:text-[#EFB036] duration-300'><a href='#resume'>Download CV</a></li>
         </ul>
 
         {/* Theme Toggle */}
-        <button onClick={() => setDarkMode(!darkMode)} className='ml-4'>
+        <button onClick={() => setDarkMode(!darkMode)} className='ml-4 transition-colors duration-500'>
           {darkMode ? (
             <BsSun className='text-yellow-400 text-2xl' />
           ) : (
@@ -62,10 +63,9 @@ const Headers = () => {
       {/* Mobile Navigation */}
       <div className={`fixed inset-0 backdrop-blur-md bg-white/90 dark:bg-[#00052a]/90 text-current transition-all duration-500 ease-in-out md:hidden flex flex-col justify-between z-40 ${menu ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'}`}>
 
-        {/* Mobile Header + Close Button */}
+        {/* Mobile Header */}
         <div className='flex justify-between items-center px-6 pt-6'>
           <h1 className='text-2xl font-bold'>Sanjaykumar V</h1>
-          
         </div>
 
         {/* Mobile Nav Links */}
@@ -90,7 +90,7 @@ const Headers = () => {
               <FaEnvelope className='text-2xl hover:text-yellow-400 transition' />
             </a>
           </div>
-          <button onClick={() => setDarkMode(!darkMode)} className='mt-2'>
+          <button onClick={() => setDarkMode(!darkMode)} className='mt-2 transition-colors duration-500'>
             {darkMode ? (
               <BsSun className='text-yellow-400 text-2xl' />
             ) : (

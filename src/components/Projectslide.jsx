@@ -67,9 +67,9 @@ const Projectslide = () => {
   };
 
   return (
-    <section id="Project" className="py-12 px-4 bg-white dark:bg-[#00052a] transition-colors duration-300">
+    <section id="Project" className="py-12 px-4 bg-white dark:bg-[#00052a] transition-colors duration-500">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-10 text-[#1a1a1a] dark:text-white hover:text-[#EFB036] transition-colors duration-300">
+        <h2 className="text-4xl font-bold text-center mb-10 text-[#1a1a1a] dark:text-white  transition-colors duration-300">
           Projects
         </h2>
 
@@ -83,13 +83,13 @@ const Projectslide = () => {
                   className="w-full h-48 object-cover rounded-lg mb-4 transition duration-300 hover:opacity-90"
                 />
                 <div className="flex flex-col flex-1">
-                  <h3 className="text-xl font-semibold text-[#EFB036] mb-2">{project.title}</h3>
+                  <h3 className="text-xl font-semibold dark:text-[#EFB036] text-[#3e64ff] mb-2">{project.title}</h3>
                   <p className="text-gray-800 dark:text-gray-300 text-sm md:text-base flex-1">{project.description}</p>
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 self-start bg-[#EFB036] text-black px-4 py-2 rounded-lg hover:bg-yellow-600 transition-all text-sm font-medium"
+                    className="mt-4 self-start dark:bg-[#EFB036] bg-[#3e65ff6c] text-white px-4 py-2 rounded-lg dark:hover:bg-yellow-600 hover:bg-[#3e64ff] transition-all text-sm font-medium"
                   >
                     View live Project
                   </a>
