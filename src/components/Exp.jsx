@@ -20,20 +20,25 @@ const Exp = () => {
     blue: {
       badge: "bg-blue-500",
       glow: "hover:shadow-blue-500/30",
+      bg: "bg-blue-50 dark:bg-blue-950/40",
     },
     pink: {
       badge: "bg-pink-500",
       glow: "hover:shadow-pink-500/30",
+      bg: "bg-pink-50 dark:bg-pink-950/40",
     },
     red: {
       badge: "bg-red-500",
       glow: "hover:shadow-red-500/30",
+      bg: "bg-red-50 dark:bg-red-950/40",
     },
     green: {
       badge: "bg-green-500",
       glow: "hover:shadow-green-500/30",
+      bg: "bg-green-50 dark:bg-green-950/40",
     },
   };
+
 
   /* ========= EXPERIENCE DATA ========= */
   const experiences = [
@@ -112,13 +117,13 @@ const Exp = () => {
                 <div className="h-full flex justify-center">
                   <div
                     className={`
-                      relative p-6 rounded-2xl w-full max-w-sm
-                      transition-all duration-500
-                      ${active === i ? "scale-105 shadow-2xl" : "scale-95 shadow-md"}
-                      bg-gray-100 dark:bg-[#0a0f3d]
-                      text-gray-900 dark:text-white
-                      ${theme.glow}
-                    `}
+    relative p-6 rounded-2xl w-full max-w-sm
+    transition-all duration-500
+    ${active === i ? "scale-105 shadow-2xl" : "scale-95 shadow-md"}
+    ${theme.bg}
+    text-gray-900 dark:text-white
+    ${theme.glow}
+  `}
                   >
                     {/* Duration Badge */}
                     <span
