@@ -1,49 +1,57 @@
-import React from 'react';
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 const projects = [
   {
     img: "./asset/project/ahmedpaint.png",
     title: "Ahmed Paint Traders Website",
-    description: "A fully responsive React website for a local paint shop with product showcase and WhatsApp inquiry integration. Built using React and Tailwind CSS. Deployed on Hostinger.",
+    description:
+      "A fully responsive React website for a local paint shop with product showcase and WhatsApp inquiry integration. Built using React and Tailwind CSS. Deployed on Hostinger.",
     link: "https://ahmedpainttraders.in/",
   },
   {
     img: "./asset/project/natarajan_and_co.png",
     title: "Natarajan & Co Landing Page",
-    description: "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design. Deployed on Hostinger.",
+    description:
+      "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design. Deployed on Hostinger.",
     link: "https://natarajanandco.com/",
   },
   {
     img: "./asset/project/hr_desk.png",
     title: "Smart Automated Resume Screening & Interview Scheduling System",
-    description: "An automated web app for screening resumes and scheduling interviews, built with React.js and Node.js, and automated using UiPath.",
+    description:
+      "An automated web app for screening resumes and scheduling interviews, built with React.js and Node.js, and automated using UiPath.",
     link: "https://hrdesktop.netlify.app/",
   },
-
   {
     img: "./asset/project/melody.png",
     title: "Melody Photography – Karaikudi",
-    description: "A visually elegant React portfolio site for a local photography studio, showcasing services, photo galleries, and client contact options. Built with React and Tailwind CSS. Deployed on Netlify.",
+    description:
+      "A visually elegant React portfolio site for a local photography studio, showcasing services, photo galleries, and client contact options. Built with React and Tailwind CSS. Deployed on Netlify.",
     link: "https://melodyphotographyps.netlify.app/",
   },
   {
     img: "./asset/project/vs_traders.png",
-    title: "Vs Traders – Karaikudi",
-    description: "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design..",
+    title: "VS Traders – Karaikudi",
+    description:
+      "A modern React-based landing page for a building material supplier, featuring company details, animated sections, and responsive design.",
     link: "https://vstraders.netlify.app/",
   },
   {
     img: "./asset/landpage 2.png",
     title: "Dark Mode Portfolio",
-    description: "Personal portfolio in React & Tailwind with dark mode toggle.",
+    description:
+      "Personal portfolio built using React and Tailwind CSS with dark mode toggle and modern UI components.",
     link: "https://github.com/vgssanjayboss/portfolio-darkmode",
-  }
+  },
 ];
 
 const Projectslide = () => {
+  const revealRef = useScrollReveal();
+
   const settings = {
     dots: false,
     infinite: true,
@@ -55,43 +63,74 @@ const Projectslide = () => {
     arrows: false,
     pauseOnHover: true,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 2 }
-      },
-      {
-        breakpoint: 768,
-        settings: { slidesToShow: 1 }
-      }
-    ]
+      { breakpoint: 1024, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 1 } },
+    ],
   };
 
   return (
-    <section id="Project" className="py-12 px-4 bg-white dark:bg-[#00052a] transition-colors duration-500">
+    <section
+      id="Project"
+      ref={revealRef}
+      className="
+        py-20 px-4
+        bg-white dark:bg-[#00052a]
+        transition-all duration-700
+        opacity-0 translate-y-10
+      "
+    >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-10 text-[#1a1a1a] dark:text-white  transition-colors duration-300">
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Projects
         </h2>
 
         <Slider {...settings}>
           {projects.map((project, index) => (
             <div key={index} className="px-3">
-              <div className="bg-[#f9f9f9] dark:bg-[#11193f] rounded-xl overflow-hidden shadow-md hover:shadow-xl p-4 h-full flex flex-col transition-transform duration-300 hover:scale-105">
+              <div
+                className="
+                  h-full flex flex-col
+                  rounded-2xl overflow-hidden
+                  bg-white/30 dark:bg-white/10
+                  backdrop-blur-xl
+                  border border-white/30 dark:border-white/10
+                  shadow-lg
+                  transition-all duration-500
+                  hover:scale-105 hover:shadow-cyan-500/30
+                "
+              >
                 <img
                   src={project.img}
-                  alt={`Screenshot of ${project.title}`}
-                  className="w-full h-48 object-cover rounded-lg mb-4 transition duration-300 hover:opacity-90"
+                  alt={project.title}
+                  className="
+                    w-full h-48 object-cover
+                    transition duration-300
+                    hover:opacity-90
+                  "
                 />
-                <div className="flex flex-col flex-1">
-                  <h3 className="text-xl font-semibold dark:text-[#EFB036] text-[#3e64ff] mb-2">{project.title}</h3>
-                  <p className="text-gray-800 dark:text-gray-300 text-sm md:text-base flex-1">{project.description}</p>
+
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="text-xl font-semibold text-cyan-500 mb-2">
+                    {project.title}
+                  </h3>
+
+                  <p className="text-gray-800 dark:text-gray-300 text-sm flex-1">
+                    {project.description}
+                  </p>
+
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 self-start dark:bg-[#EFB036] bg-[#3e65ff6c] text-white px-4 py-2 rounded-lg dark:hover:bg-yellow-600 hover:bg-[#3e64ff] transition-all text-sm font-medium"
+                    className="
+                      mt-4 self-start
+                      bg-cyan-400 hover:bg-cyan-500
+                      text-white px-4 py-2
+                      rounded-lg
+                      transition text-sm font-medium
+                    "
                   >
-                    View live Project
+                    View Live Project
                   </a>
                 </div>
               </div>

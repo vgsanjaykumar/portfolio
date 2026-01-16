@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+// import './index.css'
 import Headers from './components/Header'
 import Hero from './components/Hero'
 import Aboutme from './components/Aboutme'
@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppPopup from './components/Whatapp'
+import EducationTimeline from './components/EducationTimeline'
 
 
 const App = () => {
@@ -18,12 +19,13 @@ const App = () => {
       <Hero />
       <Aboutme />
       <Exp />
+      <EducationTimeline />
       <Projectslide />
       <Resume />
       <Contact />
       <Footer />
 
-      <WhatsAppPopup/>
+      <WhatsAppPopup />
     </div>
   )
 }
