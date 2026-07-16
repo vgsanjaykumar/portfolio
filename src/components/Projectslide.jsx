@@ -20,6 +20,20 @@ const projects = [
     link: "https://natarajanandco.com/",
   },
   {
+  img: "/asset/project/msk_solution.png",
+  title: "MSK Solution",
+  description:
+    "A modern business website developed using React.js and Tailwind CSS, featuring responsive design, service highlights, company information, and an intuitive user experience optimized for all devices.",
+  link: "https://msksolution.in/", // Update with your actual URL
+},
+{
+  img: "/asset/project/aqeel_traders.png",
+  title: "Aqeel Traders",
+  description:
+    "A professional business website built with React.js and Tailwind CSS for a building materials supplier, showcasing products, company details, contact information, and a fully responsive modern interface.",
+  link: "https://aqeeltraders.com/", // Update with your actual URL
+},
+  {
     img: "./asset/project/hr_desk.png",
     title: "Smart Automated Resume Screening & Interview Scheduling System",
     description:
